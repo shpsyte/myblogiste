@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.org/2018/01/01/sql-sesrver/</loc>
+    <lastmod>2018-01-01T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/</loc>
+    <lastmod>2017-12-21T03:21:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2017/11/11/images/</loc>
+    <lastmod>2017-11-11T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/about/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2017/11/09/typography/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2016/11/11/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-donec-ultrices-elit-et-rhoncus-maximus/</loc>
+    <lastmod>2016-11-11T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2014/09/28/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2014/04/02/hugo-template-primer/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2014/04/02/getting-started-with-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2014/03/10/migrate-to-hugo-from-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/about/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/about/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/bd/</loc>
+    <lastmod>2018-01-01T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/elements/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/</loc>
+    <lastmod>2018-01-01T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/images/</loc>
+    <lastmod>2017-11-11T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/lightbox/</loc>
+    <lastmod>2017-11-11T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/posts/</loc>
+    <lastmod>2018-01-01T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/lorem-ipsum/</loc>
+    <lastmod>2016-11-11T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/sql-server/</loc>
+    <lastmod>2018-01-01T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/typography/</loc>
+    <lastmod>2017-11-09T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/writing/</loc>
+    <lastmod>2017-11-11T10:15:01+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

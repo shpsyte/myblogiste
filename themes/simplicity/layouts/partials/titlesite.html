@@ -1,0 +1,45 @@
+<div class="row" id="about">
+  <div class="col-1">
+    <a href="/">
+      <img class="img-fluid mt-3" src="https://joseluiz.azurewebsites.net/images/logo-d.png" alt="Talk">
+    </a>
+   
+
+  </div>
+  <div class="col-10 text-center">
+    <a href="/">
+      <h2 class="mb-0">
+        José
+        <span class="text-primary"> Luiz </span>
+      </h2>
+    </a>
+    <span class="subheading-s text-dark">SQL Server and C# Developer - Data Architect - Data science enthusiast</span>
+    
+    <ul class="list-inline mt-2 text-info">
+        <li class="list-inline-item">
+          <a class="text-info"  href="/">Blog</a>
+        </li>
+        <li class="list-inline-item">
+            <a class="text-info"  href="/archives/">Archives</a>
+        </li>
+        <li class="list-inline-item">
+            <a class="text-info"  href="/categories">Categorias</a>
+        </li>
+        <li class="list-inline-item">
+            <a class="text-info"  href="/about">Sobre</a>
+        </li>
+      </ul>
+      <button onclick="Opneva()" class="btn  btn-outline-info">Talk to virtual assistant</button>
+      <!-- <small style="font-size:12px">for additional information, only Portuguese </small>    -->
+  </div>
+  <script>
+  function Opneva() {
+    // var myWindow = window.open("https://webchat.botframework.com/embed/Bot4App?s=W1taz4am4SQ.cwA.tFs.j0hMo-Fc_3Q1XpiWkoexCLgU6zDW81BLIT7WnlUb4uc",
+     //  "", "width=500,height=600");
+     height=500;
+     width=400;
+     t=window.innerHeight-height;
+     l=window.innerWidth-width-10;
+      window.open('/chat', '', 'height='+height+', width='+width+', left='+l+', top='+t );
+   }</script>  
+</div>

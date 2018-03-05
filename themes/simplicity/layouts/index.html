@@ -1,0 +1,22 @@
+
+{{ define "main" }}
+<div class="container">
+    {{ if .Site.Params.addnavleft }} {{ partial "navbarleft.html" }}{{ end }} 
+    {{ partial "titlesite.html" }}
+     
+      <br>
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+    {{ range $paginator.Pages }}
+    <article class="cards mb-5"  >
+      <a href="{{ .Permalink | relURL }}"  >
+            <span class="index-title">{{ .Title }}</span>
+              <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+                in <span class="post-cat"> {{ .Params.categories }} </span>
+                <img class="img-fluid"  src="{{ .Param "author.image" }}" width="600">
+              </a> 
+              <p class="text-lead text-info"> {{ .Params.smallcontent }}</p>
+    </article>
+    {{ end }}
+  {{ partial "pagination.html" . }}
+</div>
+{{ end }}

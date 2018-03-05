@@ -1,0 +1,34 @@
+html, body {
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  height: 100%;
+  height: 100vh;  // To make sure it takes 100% height on Safari
+  line-height: $base-line-height;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: $color-white;
+  display: grid;
+  font-family: $base-font-family;
+  grid-template-areas: "nav" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: $navbarHeight 1fr $footerHeight;
+}
+
+nav {
+  align-self: center;
+  grid-area: nav;
+}
+
+main {
+  // align-self: center;
+  grid-area: main;
+}
+
+footer {
+  align-self: center;
+  grid-area: footer;
+}

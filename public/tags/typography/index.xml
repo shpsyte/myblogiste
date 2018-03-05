@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typography on Simplicity - Hugo theme</title>
+    <link>https://example.org/tags/typography/</link>
+    <description>Recent content in Typography on Simplicity - Hugo theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Nov 2017 10:15:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://example.org/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Typography - all elements with examples</title>
+        <link>https://example.org/2017/11/09/typography/</link>
+        <pubDate>Thu, 09 Nov 2017 10:15:01 +0200</pubDate>
+        <guid>https://example.org/2017/11/09/typography/</guid>
+        <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit 😉. Nullam nibh lorem, porta ut urna ut, scelerisque consequat magna. Pellentesque vel massa sed tortor cursus tempus at eget ligula. Duis leo odio, luctus eget suscipit vel, pharetra id velit. Mauris arcu enim, mollis placerat porta in, sagittis a nisl. Nam et augue eu justo porta tincidunt. In luctus nisl dolor, sed aliquet augue elementum eget. Vivamus laoreet, mauris vitae aliquam faucibus, tellus dolor feugiat felis, ac facilisis diam eros eget est.</description>
+      </item>
+    
+  </channel>
+</rss>

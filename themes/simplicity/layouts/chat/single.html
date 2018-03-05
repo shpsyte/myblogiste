@@ -1,0 +1,49 @@
+
+<html lang="en">
+
+    <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+    
+     <link rel="stylesheet" href='{{ print "/assets/css/botsite.css" }}'>
+    
+      
+    </head>
+    
+    <body>
+             
+     <div id="bot"/>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+    <script>
+         const botConnection = new BotChat.DirectLine({
+           // domain: params['domain'],
+            secret: "W1taz4am4SQ.cwA.tFs.j0hMo-Fc_3Q1XpiWkoexCLgU6zDW81BLIT7WnlUb4uc",
+            webSocket: true
+          });
+     botConnection.activity$
+            .filter(function (activity) {
+              return activity.type === 'event' && activity.name === 'changeBackground';
+            })
+            .subscribe(function (activity) {
+              console.log('"changeBackground" received with value: ' + activity.value);
+              changeBackgroundColor(activity.value);
+            });
+          function changeBackgroundColor(newColor) {
+            document.body.style.backgroundColor = newColor;
+          }
+      BotChat.App({
+        //directLine: { secret: "W1taz4am4SQ.cwA.tFs.j0hMo-Fc_3Q1XpiWkoexCLgU6zDW81BLIT7WnlUb4uc"},
+        botConnection: botConnection,
+        user: { id: 'userid' },
+        bot: { id: 'botid' },
+        resize: 'detect',
+        sendTyping: true,
+      }, document.getElementById("bot"));
+        
+    </script>
+    </body>
+    
+    </html>

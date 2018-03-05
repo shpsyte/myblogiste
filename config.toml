@@ -1,0 +1,43 @@
+baseURL = "https://example.org/"
+defaultContentLanguage = "en"
+enableEmoji = true
+languageCode = "en-us"
+paginate = 4
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "simplicity"
+title = "Simplicity - Hugo theme"
+[author]
+  gravatarEmail = "test@example.com"
+  homepageText = "Simplicity"
+  name = "José Luiz"
+[params]
+  description = "A blog about everything."
+  disqusShortname = "test"
+  googleAnalytics = ""
+  licence = ""
+  adsenseDataAdClient = ""
+  adsenseDataAdSlot = ""
+  addnavleft = ""
+  addThisId = ""
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[[menu.pages]]
+  name = "Projects"
+  weight = -100
+  identifier = "projects"
+  url = "/projects/"
+[[menu.pages]]
+  name = "Photos"
+  weight = -90
+  identifier = "photos"
+  url = "/photos/"

@@ -1,0 +1,215 @@
+body {
+    font-family: 'PT Mono', sans-serif;
+    color: #868e96;
+    
+    font-size: 16px;
+  line-height: 26px;
+  
+  letter-spacing: .05em;
+  
+  
+  }
+  
+  @media (min-width: 992px) {
+    #page-top {
+      padding-top: 0;
+      padding-left: 10rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     
+   margin: 50px 0 20px 0;
+  padding: 0;
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  }
+  p{
+       
+      text-justify: inter-word;
+  }
+  
+  ul.timeline{
+    height:100%;
+  }
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 50px;
+  line-height: 68px;
+  
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    
+  }
+  
+  .list-social-icons a {
+    color: #495057;
+  }
+  
+  .list-social-icons a:hover {
+    color: #BD5D38;
+  }
+  
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem;
+  }
+  
+  .list-icons {
+    font-size: 3rem;
+  }
+  
+  .list-icons .list-inline-item i:hover {
+    color: #BD5D38;
+  }
+ 
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+   
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #BD5D38 !important;
+  }
+  
+  .text-primary {
+    color: #BD5D38 !important;
+  }
+  
+  a {
+    color: #BD5D38;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #824027;
+  }
+  .index-title {
+    font-size: 2.8em;
+    color: black;
+    line-height: 1.2em;
+    text-align: center;
+}
+  .archives {
+    
+  }
+
+  .date
+  {
+    color: #495057;
+  }
+
+  .archives ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  .archives li {
+    overflow: auto;
+  }
+  .archives li:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+.skills dl {
+
+}
+.skills dl {
+
+}
+
+.skills dl dt {
+    clear: left;
+    display: inline;
+    float: left;
+    margin: 5px 5px 5px 0;
+     
+    width: 100%;
+}
+
+.skills dl dd{
+  background: #dfdfdf;
+  display: inline;
+  float: left;
+  font-size: 1em;
+  margin: 5px 3px;
+  padding: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+  cursor: default;
+}
+
+/*   
+
+  ul.post-list{padding:0 1rem}
+  ul.post-list a:active,ul.post-list a:hover,ul.post-list a:visited{text-decoration:none}
+  ul.post-list a:last-child li{border-bottom:1px solid silver}
+  ul.post-list a li{
+      border-top:1px solid silver;display:-webkit-box;display:-ms-flexbox;display:flex;
+      -webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;list-style:none;
+      padding:.5rem 0}
+      @media (max-width:50rem){ul.post-list a li{display:block;text-align:center}}
+      ul.post-list a li .date{color:silver;font-style:italic;font-weight:400;margin-left:2rem;
+          white-space:nowrap}@media (max-width:50rem){ul.post-list a li .date{display:none}} */
