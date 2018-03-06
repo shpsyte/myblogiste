@@ -53,7 +53,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
     right: 0;
     top: 38px;
     transition: transform 0.2s cubic-bezier(0, 0, 0.5, 1); 
-    background: url('../img/fundo.png')  no-repeat center center;
+    background: url('fundo.png')  no-repeat center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
