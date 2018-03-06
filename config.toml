@@ -7,13 +7,13 @@ pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "Simplicity - Hugo theme"
+title = "José Luiz -  Blog Site"
 [author]
   gravatarEmail = "test@example.com"
-  homepageText = "Simplicity"
+  homepageText = "José Luiz"
   name = "José Luiz"
 [params]
-  description = "A blog about everything."
+  description = "A blog about everything in tech!"
   disqusShortname = "test"
   googleAnalytics = ""
   licence = ""
