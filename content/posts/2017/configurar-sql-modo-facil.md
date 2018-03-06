@@ -1,5 +1,5 @@
 ---
-title: Configurar sql em Rede - Nível I.
+title: Configurar sql em Rede - Via Porta.
 date: 2017-11-21T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","sql em rede"]
@@ -12,8 +12,10 @@ author:
   smallcontent: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando apenas a liberação da porta dentro do firewall, é um método bastante simples. 
 draft: false
 ---
- 
 
+ {{< youtube t095JhqXduQ >}}
+
+### Obs
 Vale apena lembra que existem muitas maneiras de fazer este procedimento, esta é apenas uma delas e não estou usando o SQL BROWSER.
 
 A melhor escolha da forma da liberação vai depender da sua estrutura de sistemas, o que o seu servidor comporta e como ele é acessado.

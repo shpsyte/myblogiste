@@ -5,7 +5,7 @@ categories: ["writing"]
 tags: ["typography", "elements"]
 language: en
 slug: typography
-draft: true
+draft: false
 
 ---
 

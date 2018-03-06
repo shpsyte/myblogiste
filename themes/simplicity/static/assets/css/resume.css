@@ -201,6 +201,17 @@ body {
   cursor: default;
 }
 
+
+pre {
+   background-color: #f3f0f0; 
+  border-radius: 3px;
+}
+
+
+pre code {
+  
+}
+
 /*   
 
   ul.post-list{padding:0 1rem}
