@@ -7,7 +7,7 @@
     {{ range .Pages    }}
     {{ if ne .Draft true}}
       <h4>{{ .Title }}?</h4>
-      <p class="text-lead text-info"> {{ .Params.smallcontent }} ; <a href="{{ .Permalink | relURL }}">link</a></p>
+      <p class="text-lead text-info"> {{ .Params.smallcontent }} ; {{ .Permalink | relURL }}</p>
          {{ end }}
     {{ end }} 
     {{ end }}
