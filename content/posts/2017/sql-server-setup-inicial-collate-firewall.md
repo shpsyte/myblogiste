@@ -6,10 +6,8 @@ tags: ["sql-server","instalação sql"]
 
 language: en
 slug: sql-server-cuidados-collate-firewall
-author:
-  given_name: José luiz
-  image: /images/teste.png
-  smallcontent: Olá amigos, neste post vou falar sobre o Setup Inicial da Instalação do Sql Server, melhor collate, e regras do firewall para acesso via Rede/Externo. 
+author: José luiz
+smallcontent: Olá amigos, neste post vou falar sobre o Setup Inicial da Instalação do Sql Server, melhor collate, e regras do firewall para acesso via Rede/Externo. 
 draft: false
 ---
 

@@ -7,9 +7,8 @@ tags: ["bots-dev","Inteligencia Artificial"]
 language: en
 slug: projeto-inicial-maratona-bots
 author:
-  given_name: José luiz
-#   image: /images/teste.png
-  smallcontent: Projeto final (inicial) da maratona Bots.
+given_name: José luiz
+smallcontent: Projeto final (inicial) da maratona Bots.
 draft: false
 ---
 

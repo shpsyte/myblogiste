@@ -6,10 +6,8 @@ tags: ["sql-server","sql em rede"]
 
 language: en
 slug: sql-server-em-rede-modo-facil
-author:
-  given_name: José luiz
-  image: /images/teste.png
-  smallcontent: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando apenas a liberação da porta dentro do firewall, é um método bastante simples. 
+author: José luiz
+smallcontent: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando apenas a liberação da porta dentro do firewall, é um método bastante simples. 
 draft: false
 ---
 
