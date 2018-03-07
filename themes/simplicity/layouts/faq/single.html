@@ -8,7 +8,7 @@
     {{ if ne .Draft true}}
       <h4>{{ .Title }}?</h4>
       <p>
-      {{ .Params.smallcontent }}|{{ .Title}}|{{ .Permalink | relURL }}|{{ .Params.image }}|{{ .Date.Format "2006-01-02" }}|
+      {{ .Params.smallcontent }}|{{ .Title}}|{{ .Permalink }}|{{ .Params.image }}|{{ .Date.Format "2006-01-02" }}|
          <a href="{{ .Permalink | relURL }}" >visite</a>
       </p>
       
