@@ -7,7 +7,11 @@
     {{ range .Pages    }}
     {{ if ne .Draft true}}
       <h4>{{ .Title }}?</h4>
-      <p class="text-lead text-info"> {{ .Params.smallcontent }} ; {{ .Permalink | relURL }}</p>
+      {{ .Params.smallcontent }};{{ .Title}};{{ .Permalink | relURL }};{{ .Params.image }};{{ .Date.Format "2006-01-02" }};
+      <a href="{{ .Permalink | relURL }}" >visite</a>
+      
+       
+       
          {{ end }}
     {{ end }} 
     {{ end }}
