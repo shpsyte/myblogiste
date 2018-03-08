@@ -2,7 +2,7 @@
 title: 3 Dicas para Documentar Banco SQL SERVER.
 date: 2018-02-22T10:15:01+02:00
 categories: ["Sql-Server"]
-tags: ["sql-server","documentação sql"]
+tags: ["sql-server","documentação sql "]
 
 language: en
 slug: 3-dicas-para-documentar-banco-sql-server
