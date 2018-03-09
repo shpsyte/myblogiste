@@ -1,7 +1,7 @@
 baseURL = "https://joseluiz.azurewebsites.net/"
 defaultContentLanguage = "en"
 enableEmoji = true
-languageCode = "en-us"
+languageCode = "pt-br"
 paginate = 4
 pygmentsCodeFences = true
 pygmentsStyle = "native"

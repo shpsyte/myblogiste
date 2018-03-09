@@ -11,8 +11,22 @@
     </main>
     {{ partial "footer.html" . }}
     <script src="{{ print "/assets/js/" $.Site.Data.assets.main.js | relURL }}"></script> 
-    {{ template "_internal/google_analytics_async.html" . }}
-    {{ if .Site.Params.addThisId }}
+    <!-- {{ template "_internal/google_analytics.html" . }} -->
+
+    <!-- {{ template "_internal/google_analytics_async.html" . }} -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115448344-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115448344-1');
+    </script>
+
+
+     {{ if .Site.Params.addThisId }}
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ $.Site.Params.addThisId }}"></script>
     {{ end }}
   </body>
