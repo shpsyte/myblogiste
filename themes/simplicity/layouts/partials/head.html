@@ -1,6 +1,14 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{- .Title }} - {{ .Site.Title -}}</title>
+<title>
+{{ if not .IsHome }}
+  {{- .Title }} - {{ .Site.Title -}}
+{{else}}
+  {{ .Site.Title -}}
+{{ end }}
+</title>
+
+
 <meta name="author" content="{{ .Site.Author.name }}">
 <meta name="description" content="{{ .Site.Params.description }}">
 
@@ -37,3 +45,5 @@
     enable_page_level_ads: true
   });
 </script>
+
+ 
