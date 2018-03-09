@@ -1,7 +1,7 @@
 ---
 title: "Entity Framework Core Global Query Filters"
 date: 2018-03-09T08:00:22-03:00
-categories: ["Entity Framework", "c#"]
+categories: ["Entity Framework", "cSharp"]
 tags: ["Entity Framework","EF","Asp.net Core"]
 language: en
 slug: entity-framework-core-global-query-filters
