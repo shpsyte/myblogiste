@@ -20,9 +20,10 @@ title = "José Luiz -  Blog Site"
   adsenseDataAdClient = "ca-pub-5232576530882081"
   adsenseDataAdSlot = "5232576530882081"
   addnavleft = ""
-  addThisId = ""
+  addThisId = "ra-5aa2dff90bb5f212"
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  # posts = "/:year/:month/:day/:slug/"
+  posts = "/:slug/"
 [pygmentsOptions]
   linenos = false
 [outputs]
