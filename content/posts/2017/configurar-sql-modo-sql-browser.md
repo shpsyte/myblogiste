@@ -18,8 +18,8 @@ Na inicialização do servidor SQL, o **SQL BROWSER** é iniciado e ocupa a port
 
 Vale apena lembra que MESMO com o **SQL BROWSER** desativado é possível a conexão, desde que o cliente “saiba” qual porta foi atribuída a instância, mas uma vez reiniciado a porta poderá mudar.
 
-```SQL Server O Browser não é um recurso clusterizado e não dá suporte ao failover de um nó de cluster para outro. Portanto, no caso de um cluster, o Navegador do SQL Server deve ser instalado e ativado para cada nó do cluster. Em clusters, o Navegador do SQL Server escuta em 
-```
+>SQL Server O Browser não é um recurso clusterizado e não dá suporte ao failover de um nó de cluster para outro. Portanto, no caso de um cluster, o Navegador do SQL Server deve ser instalado e ativado para cada nó do cluster. Em clusters, o Navegador do SQL Server escuta em 
+
 
 A melhor escolha da forma da liberação vai depender da sua estrutura de sistemas, o que o seu servidor comporta e como ele é acessado.
 

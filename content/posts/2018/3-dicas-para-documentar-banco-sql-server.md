@@ -38,7 +38,7 @@ Estou usando o SSMS, mas você pode adicionar também via SCRIPT
 
 ou pelo script,
 
-```
+```sql
  EXECUTE sp_updateextendedproperty N'MS_Description', 
   N'TEXTO_A_SER_ADICIONADO', N'SCHEMA', N'dbo', N'TABLE', N'NOME_DA_TABELA', N'COLUMN', N'NOME_DA_COLUNA'
 ```
@@ -48,7 +48,7 @@ troque apenas os texto **NOME_DA_TABELA e NOME_DA_COLUNA**
 
 A Sacada aqui é uma Stored Procedure que você pode usar a vontade, e enviar aos seus programadores chamada sp_desc, o fonte desta sp esta abaixo e basta você usar assim:
 
-```
+```sql
     sp_desc Customer
 ```
 
@@ -56,7 +56,7 @@ Onde “Customer” é nome da sua tabela, o resultado sai desta maneira:
 ![Alt text](/images/DocColunaDesc.png "Resultado" )
 
 
-```
+```sql
 
 CREATE PROCEDURE sp_desc (
   @tableName  nvarchar(128)
@@ -187,7 +187,7 @@ Muito simples.
 <a href="https://sqldbdoc.codeplex.com/"> Source Original,</a> <a href="https://drive.google.com/file/d/138sk1VbbZ54ypUojVEYPno38AWXzJmOl/view"> Source Alternativo (por conta do Codplex sair) </a>
  
 2. Chame o aplicativo passando a string de conexão e o nome do arquivo de saída com a extensão
-```
+```msdos
     sqldbdoc "SERVER =.\SqlExpress; TRUSTED_CONNECTION = yes; DATABASE = AdventureWorks" banco.html
 ```
 3. Pronto! fácil não ?

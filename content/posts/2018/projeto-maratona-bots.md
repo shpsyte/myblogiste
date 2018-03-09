@@ -3,7 +3,6 @@ title: "Projeto Maratona Bots"
 date: 2018-03-07T08:54:22-03:00
 categories: ["bots", "c#"]
 tags: ["bots-dev","Inteligencia Artificial"]
-
 language: en
 slug: projeto-inicial-maratona-bots
 author:

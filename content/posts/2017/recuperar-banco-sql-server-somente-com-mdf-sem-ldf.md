@@ -24,7 +24,7 @@ Recuperar um arquivo MDF pode ocorrer em diversos casos, você pode solicitar o 
 
 #### 1 – Comando
 
-```
+```sql
     EXEC sp_attach_single_file_db @dbname= dbTest,
       @physname=N'F:\DbSQL\Data\dbTest.mdf'
 ```
@@ -32,7 +32,7 @@ Recuperar um arquivo MDF pode ocorrer em diversos casos, você pode solicitar o 
 
 #### 2 – Comando
 
-```
+```sql
     CREATE DATABASE [dbTest] ON 
     ( FILENAME = N'F:\DbSQL\Data\dbTest.mdf' )
      FOR ATTACH_REBUILD_LOG
@@ -54,7 +54,7 @@ LDF: Contém o LOG de transição, tudo que acontece dentro do MDF é registrado
 
 No SQL SERVER 2008 R2, SQL SERVER 2014, mesmo com o banco em read_only foi possível usar apenas os comandos acima, porém se o banco estiver em modo read_only pode aparecer o seguinte erro:
 
-```“Log file ‘dbTest_log.ldf’ does not match the primary file.  It may be from a different database or the log may have been rebuilt previously.The log cannot be rebuilt when the primary file is read-only.” ```
+>“Log file ‘dbTest_log.ldf’ does not match the primary file.  It may be from a different database or the log may have been rebuilt previously.The log cannot be rebuilt when the primary file is read-only.” 
 
 **Se isso acontecer, calma ainda podemos tentar recuperar.**
 
@@ -62,7 +62,7 @@ No SQL SERVER 2008 R2, SQL SERVER 2014, mesmo com o banco em read_only foi poss�
 
 ##### 1. Crie um banco de dados “falso” com o mesmo nome do original, incluse no mesmo caminho original.
 
-```
+```sql
 CREATE DATABASE [dbTest]
      CONTAINMENT = NONE
      ON PRIMARY 
@@ -74,7 +74,7 @@ GO
 
 ##### 2. Colocar o banco em read_only e offline
 
-```
+```sql
     alter database dbTest set read_only
     alter database dbTest set offline
 ```
@@ -83,7 +83,7 @@ GO
 
 ##### 4. Colocar o status do banco para emergency e single_user
 
-```
+```sql
     alter database dbTest set emergency
     alter database dbTest set single_user
 ```
@@ -92,20 +92,20 @@ GO
 
 ##### 6. Recriar o LOG banco.
 
-```
+```sql
     alter database dbTest rebuild log on
     (Name= dbTest_log,filename='F:\DbSQL\Log\dbTest_log.ldf')
 ``` 
 
 ##### 7. Apontar o status para online:
 
-```
+```sql
     alter database dbTest set online
 ```
 
 ##### 8. Mudar o status do banco para multi_user:
 
-```
+```sql
     alter database dbTest set MULTI_USER
 ```    
 

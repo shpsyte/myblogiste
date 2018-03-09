@@ -44,7 +44,7 @@ Definir o Collate não é algo trivial, e para tornar esse conceito um pouco sim
 
 Vamos pensar na usabilidade do usuário e do programador, se a palavra “João” é diferente da palavra “joão” isso fará com que o programador efetue a transformação para pesquisa, causando gargalos, atrasos e como garantiremos que todos irão seguir este padrão, não é mesmo ?
 
-```
+```sql
     SELECT * 
       FROM Customer  
      WHERE UPPERCASE(Firstname) like ('%JOÃO%')
@@ -54,7 +54,7 @@ Para evitar que o programador se preocupe com o UPPERCASE ou LOWERCASE, TODOS me
 
 Este collate não faz diferença entre MAIÚSCULA e MINÚSCULA, mas faz a distinção de Acentuação, a mesma instrução SQL acima agora ficaria assim.
 
-```
+```sql
     SELECT * 
       FROM Customer  
      WHERE Firstname like ('%João%')
