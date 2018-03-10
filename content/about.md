@@ -5,9 +5,9 @@ categories: ["about"]
 tags: ["about"]
 language: pt
 slug: about
----
+--- 
 
-## Sobre
+### Sobre
 
 <p align="justify">
   José Luiz is a
