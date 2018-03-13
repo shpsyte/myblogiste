@@ -1,6 +1,6 @@
 ---
 title: "Capturar dados com SQL Profile"
-date: 2018-01-09T08:00:22-03:00
+date: 2018-03-09T08:00:22-03:00
 categories: ["Sql-Server"]
 tags: ["Sql-Server","Sql-Profiler","Capturar Dados SQL"]
 language: en
@@ -8,7 +8,7 @@ slug: capturar-dados-com-sql-profiler
 author:
 given_name: José luiz
 smallcontent: Olá galera, este post é para quem está iniciando a programação em banco de dados, e na maioria  as vezes o aspirante a DBA começa a desenvolver pequenos relatórios para atender a necessidades especificas, mas ai vem a dúvida, como saber de onde pegar os dados ?
-draft: false
+draft: false  
 ---
 
 
