@@ -1,4 +1,4 @@
-baseURL = "https://joseluiz.azurewebsites.net/"
+baseURL = "http://joseluiz.net/"
 defaultContentLanguage = "en"
 enableEmoji = true
 languageCode = "pt-br"
