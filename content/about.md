@@ -65,7 +65,7 @@ slug: about
  <br>Data science enthusiast, he works with data analytics, data modeling and data architect
  <br>
   Learn more at
-  <a href="https://www.linkedin.com/in/jls-borges/" target="_blank">LinkedIn </a>
+  <a href="https://www.linkedin.com/in/joseluizsborges/" target="_blank">LinkedIn </a>
 </p>
 </div>
 <HR>
@@ -78,6 +78,14 @@ slug: about
     <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+    </span>
+    </a>
+</li>
+<li class="list-inline-item">
+    <a href="https://www.instagram.com/joseluizsborges/">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
     </span>
     </a>
 </li>

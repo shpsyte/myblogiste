@@ -3,11 +3,9 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-   
   <body id="page-top">
-   
     <main class="container-fluid">
-      {{ block "main" . -}}{{- end }}
+        {{ block "main" . -}}{{- end }}
     </main>
     {{ partial "footer.html" . }}
     <script src="{{ print "/assets/js/" $.Site.Data.assets.main.js | relURL }}"></script> 
@@ -24,14 +22,8 @@
 
   gtag('config', 'UA-115448344-1');
 </script>
-
-    
-
-     {{ if .Site.Params.addThisId }}
+    {{ if .Site.Params.addThisId }}
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ $.Site.Params.addThisId }}"></script>
     {{ end }}
   </body>
-
- 
-
 </html>
