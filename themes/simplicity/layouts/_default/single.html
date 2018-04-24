@@ -6,51 +6,57 @@
   <article>
     <header>
       <br>
-      <h2>
-      {{ if not (eq .Params.type "ebooks") }}
-      <div class="card" style="background-color: #ffff; padding:0.25em; border-radius: 3px !important">
-          {{- .Title -}} 
-          <div class="row">
-          <div class="col-6">
-          <p  class="h6 text-muted font-weight-light" >
-              {{- .Date.Format "02 Jan 2006" -}}, 
-               {{- if .Params.categories }} 
-                 {{ range $index, $category := .Params.categories }}
-                   {{ if gt $index 0 }}, {{ end }}
-                   <a class="h6 font-weight-light text-info" href="{{ $.LanguagePrefix }}{{ "/categories/" | relURL }}{{ . | urlize }}">{{- upper . -}}</a>
-                 {{ end }}
-               {{- end -}}
-         </p>
+
+      <div class="card" style="background-color: #ffff; border-radius: 3px !important">
+          {{ if .Params.image }}
+          <img class="card-img-top" src="{{ .Params.image }}" width="250" height="250">
+          {{end}}
+          <div class="card-body">
+              <h2>{{- .Title -}}</h2>
+              <div class="row">
+                  <div class="col-6">
+                  <p  class="h6 text-muted font-weight-light" >
+                      {{- .Date.Format "02 Jan 2006" -}}, 
+                       {{- if .Params.categories }} 
+                         {{ range $index, $category := .Params.categories }}
+                           {{ if gt $index 0 }}, {{ end }}
+                           <a class="h6 font-weight-light text-info" href="{{ $.LanguagePrefix }}{{ "/categories/" | relURL }}{{ . | urlize }}">{{- upper . -}}</a>
+                         {{ end }}
+                       {{- end -}}
+                 </p>
+                </div>
+                <div class="col-6 text-right">
+                 <p class="h6 text-muted font-weight-light">{{ .WordCount }} Palavras, por {{ .Params.author }} </p>        
+                </div>
+            </div>
+            <p>
+                {{ if .Params.tags }}
+                  {{ range $index, $tag := .Params.tags }}
+                    {{ if gt $index 0 }}, {{ end }}
+                    <a href="{{ $.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}">
+                      <span class="hash">#</span>{{- . -}}
+                    </a>
+                  {{ end }}
+                {{ end }}
+              </p>
+              <hr>
+              <br>
+
+              {{ partial "adsense.html" . }}
+              {{- .Content -}}
+          </div>
         </div>
-        <div class="col-6 text-right">
-         <p class="h6 text-muted font-weight-light">{{ .WordCount }} Palavras, por {{ .Params.author }} </p>        
-        </div>
-        </div>
-      </div>
-      {{ end }}
-      </h2>
-      <p>
-        
-        {{ if .Params.tags }}
-          {{ range $index, $tag := .Params.tags }}
-            {{ if gt $index 0 }}, {{ end }}
-            <a href="{{ $.LanguagePrefix }}{{ "tags/" | relURL }}{{ . | urlize }}">
-              <span class="hash">#</span>{{- . -}}
-            </a>
-          {{ end }}
-        {{ end }}
-      </p>
     </header>
-    <section>
-      {{ partial "adsense.html" . }}
-      {{- .Content -}}
-    </section>
     <footer>
-      {{ if .Site.Params.addThisId }}
-        <div class="addthis_inline_share_toolbox"></div>
-      {{ end }}
-      
-      {{ template "_internal/disqus.html" . }}
+      <div class="card mt-3" style="background-color: #ffff; border-radius: 3px !important">
+        <div class="card-body">
+            {{ if .Site.Params.addThisId }}
+              <div class="addthis_inline_share_toolbox"></div>
+            {{ end }}
+            
+            {{ template "_internal/disqus.html" . }}
+       </div>
+    </div>
     </footer>
   </article>
 {{ else }}

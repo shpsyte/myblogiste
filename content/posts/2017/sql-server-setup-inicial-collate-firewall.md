@@ -1,5 +1,5 @@
 ---
-title: SQL Server – Cuidados na Instalação, Collate & Firewall
+title: SQL Server – Instalação, Collate & Firewall
 date: 2017-12-22T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","instalação sql"]

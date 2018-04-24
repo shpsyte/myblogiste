@@ -11,8 +11,6 @@ excerpt: Olá galera, vocês conhecem este recurso Global Query Filters ?, Ele n
 draft: false
 ---
 
-
-
  <!-- {{< youtube VB-WXFEapBk >}} -->
 
 #### Global Query Filters ou Model-Level Query Filter

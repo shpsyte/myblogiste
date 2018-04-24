@@ -1,5 +1,5 @@
 ---
-title: Recuperar Banco SQL SERVER somente com MDF sem o LDF
+title: Recuperar DB SQL com MDF sem o LDF
 date: 2017-11-25T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","backup sql"]

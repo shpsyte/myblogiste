@@ -1,29 +1,44 @@
 {{ define "main" }}
 <div class="container">
-  
-    {{ partial "titlesite.html" }}
-    <h2>
-      <span>Post's</span> {{ .Title }}
-      <a href="{{ .RSSLink | relURL }}" title="RSS">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="rss"
-        >
-          <path d="M4 11a9 9 0 0 1 9 9" />
-          <path d="M4 4a16 16 0 0 1 16 16" />
-          <circle cx="5" cy="19" r="1" />
-        </svg>
-      </a>
-    </h2>
-    {{ partial "posts_list.html" . }}
-  
+
+  {{ partial "titlesite.html" }}
+  <h2>
+    <span class="font-weight-light">Categoria: </span> {{ .Title }}
+    <a href="{{ .RSSLink | relURL }}" title="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="rss">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h2>
+
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ partial "pagination.html" . }}
+
+  <div class="row mt-3">
+      {{ range $paginator.Pages }}
+    <div class="col-md-3 mt-4">
+      <div class="card shadown">
+        <div class="card-body post">
+          <h6 class="card-title">
+            <a class="text-info" href="{{ .Permalink | relURL }}">{{.Title }}</a>
+          </h6>
+          <p class="card-text font-weight-light" style="font-size: 14px !important">{{ substr .Params.excerpt 0 100 }}</p>
+          <spam class="font-weight-light text-muted">por</spam> <spam class="text-success">{{ .Params.author }}</spam>
+        </div>
+      </div>
+
+    </div>
+    {{ end }}
+    
+  </div>
+
+
+
+
 </div>
+
+
 {{ end }}

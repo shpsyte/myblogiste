@@ -53,12 +53,13 @@ Estou assumindo que você já use o **SSMS** mas se não usa, você pode abrir o
 
 *C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\PROFILER.exe* onde **140** é minha versão do SSMS;
 
-![Alt text](/images/sqlserverprofilepath.png "Sql Server Profiler")
+<img src="/images/sqlserverprofilepath.png" class="img-fluid" alt="Sql Server Profiler">
+
 
 ### 2. Conecte na instância do seu banco
 Você deve ser membro do SQL Audit ou SA para poder executar esta ferramenta.
 
-![Alt text](/images/sqlserverprofileconect.png "Sql Conect Profiler")
+<img src="/images/sqlserverprofileconect.png" class="img-fluid" alt="Sql Conect Profiler">
 
 
 ### 3. Defina os parâmetros de rastreamento
@@ -66,7 +67,7 @@ Você deve ser membro do SQL Audit ou SA para poder executar esta ferramenta.
 Aqui é um passo importante, no campo *Usar o modelo* defina ***TSQL_SPs***, isso fara que o profile capture T-SQL puro, Stored Procedures, Triggers, Functions, além de permitir usar o próximo filtro.
 Existem outros modelos, mas para este Post estamos interessados em rastrear instruções SQL.
 
-![Alt text](/images/profiler_property.PNG "Sql Conect Profiler")
+<img src="/images/profiler_property.png" class="img-fluid" alt="Sql Conect ProfileR">
 
 ##### 3.2 Filtro
 Acesse a aba  *Seleção de eventos*, nesta aba você ira filtrar o que deseja capturar. Se deixar em branco será bem mais complicado entender a captura, já que ele vai capturar tudo, independente de quem esteja usando o banco naquele momento e só queremos pegar nossa sistema.
@@ -78,14 +79,13 @@ Vou falar apenas de 2 colunas:
 
 Em nosso caso, vou simular uma tela de um sistema da WEB, logo vou apenas definiar o nome do banco.
 
-![Alt text](/images/profiler_property_filter.PNG "Sql Filter Profiler")
-
+<img src="/images/profiler_property_filter.png" class="img-fluid" alt="Sql Filter Profiler">
 
 ### 4. Começe a captura
 Ao clicar no botão *OK* o SQL Profile já vai começar a capturar tudo. Desde SQL, INSERT, UPDATE...
 mágico não é mesmo ;)
 
-![Alt text](/images/sqlprofiletrace.PNG "Sql Filter Profiler Trace")
+<img src="/images/sqlprofiletrace.PNG" class="img-fluid" alt="Sql Filter Profiler Trace">
 
 
 
@@ -98,12 +98,12 @@ Fácil, basta agora ***navegar nas telas do sistema*** e identificar no profile 
 
 #### 5.1 Dados de clientes
 Ao navegar na tela de clientes, identifico a instrução abaixo
-![Alt text](/images/table_person.PNG "Sql Filter Profiler Trace")
+<img src="/images/table_person.PNG" class="img-fluid" alt="Sql Filter Profiler Trace">
 
 
 #### 5.1 Dados do financeiro
 E ao navegar na tela de finanças, identifico a instrução abaixo
-![Alt text](/images/table_financial.PNG "Sql Filter Profiler Trace Finance")
+<img src="/images/table_financial.PNG" class="img-fluid" alt="Sql Filter Profiler Trace">
 
 
 #### Pronto

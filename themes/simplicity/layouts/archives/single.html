@@ -7,12 +7,12 @@
 
   {{ with .Site.GetPage "section" "posts" }}
   {{ range .Data.Pages.GroupByDate "2006" }}
-  
+<br>  
   <div class="archives">
     <h3>{{ .Key }}</h3>
     <ul>
       {{ range .Pages }}
-        <li>{{ .Date.Format "2006-01-02" }} <a href="{{ .Permalink }}" class="permalink">{{ .Title }}</a></li>
+        <li>{{ .Date.Format "02-01-2006" }} | <a href="{{ .Permalink | relURL }}" class="permalink">{{ .Title }} <small class="text-muted font-weight-light">{{.WordCount}} - {{ .Params.author }} </small></a></li>
       {{ end }}
     </ul>
   </div>

@@ -1,6 +1,8 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
-
+.shadown {
+    box-shadow: 0 0 43px 0 #bdc1c5;
+}
 .tb-search {
     display: block;
   }

@@ -31,38 +31,40 @@ Logo após a instalação do SQL SERVER, não é possível acessar o servidor po
 #### Step 1: **Inicie** o *SQL SERVER CONFIGURATION MANAGER*
  *iniciar>Microsoft SQL Server XXX>Ferramentas de Configuração>SQL SERVER CONFIGURATION MANAGER*
  <br>
-![Alt text](/images/sqlconfmanager.png "Configure Manager" )
+<img src="/images/sqlconfmanager.png" class="img-fluid">
+
  
 <br>
 
 #### Step 2: **Habilite** o serviço SQL BROWSER
 <p>Inicie o serviço SQL BROWSER e deixe como inicio automático na guia</p>
-![Alt text](/images/startbrowser.png "Tcp Enable")
+<img src="/images/startbrowser.png" class="img-fluid" alt="Tcp Enable">
+
 <br>
 
 #### Step 3: **Altere** a porta do SQL
 <p>Altere a porta desejada, nas propriedades IP ADRESSSES deste protocolo, na opção IPAll, o padrão é 1433 e limpe a caixa com a opção TCP Dynamic PORT</p> 
-![Alt text](/images/propertiestcp.png "Propriedades TCP")
+<img src="/images/propertiestcp.png" class="img-fluid" alt="Propriedades Tcp">
 <br>
 
 
 #### Step 4: **Dynamic Porta** 
 <p>Coloque uma porta alta na última opção, no campo dynamic port, e deixe a PORT TCP em Branco</p>
-![Alt text](/images/tcpipenable2.png "Porta SQL")
+<img src="/images/tcpipenable2.png" class="img-fluid" alt="Porta SQL">
 <br>
 
  
 
 #### Step 5: **Adicione Regra** no firewall
 <p>Abra o Firewall do Servidor e adicione em regra INBOUND(Entrada) colocando a porta (1434) como UDP, o SQL Browser usa esta porta, continue e salve com um nome apropriado para esta regra.</p>
-![Alt text](/images/addport1434.png "Porta 1434 SQL")
+<img src="/images/addport1434.png" class="img-fluid" alt="Porta 1434 SQL">
 <br>
 
 
 
 #### Step 6: **Teste Conexão** remota
 <p>Efetue um teste de conexão, e envie o nome da instância.</p>
-![Alt text](/images/testeinstance.png "Porta 1434 SQL")
+<img src="/images/testeinstance.png" class="img-fluid" alt="Porta 1434 SQL">
 <br>
 
 
