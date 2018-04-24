@@ -3,11 +3,11 @@ title: Configurar sql em Rede - Via Porta.
 date: 2017-11-21T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","sql em rede"]
-
-language: en
+language: pt-br
 slug: sql-server-em-rede-modo-facil
 author: José luiz
-smallcontent: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando apenas a liberação da porta dentro do firewall, é um método bastante simples. 
+keyword: "SQL, SQL Profile, SQL em Rede"
+excerpt: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando apenas a liberação da porta dentro do firewall, é um método bastante simples. 
 draft: false
 ---
 

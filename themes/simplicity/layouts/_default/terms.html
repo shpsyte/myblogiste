@@ -3,10 +3,10 @@
       {{ partial "titlesite.html" }}
     <h2>Categorias</h2>
     
-    <ul>
+    <ul class="list-unstyled">
       {{ range .Data.Terms.Alphabetical }}
-        <li>
-          <a href="{{ $.LanguagePrefix }}/{{ $.Data.Plural }}/{{ .Term | urlize }}">
+        <li class="mt-3">
+          <a class="h5 text-info font-weight-light" href="{{ $.LanguagePrefix }}/{{ $.Data.Plural }}/{{ .Term | urlize }}">
             {{ if eq $.Data.Plural "tags" }}<span class="hash">#</span>{{ end }}{{ .Term }}
           </a>
           <sup>{{ .Count }}</sup>

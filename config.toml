@@ -1,31 +1,41 @@
 baseURL = "http://joseluiz.net/"
-defaultContentLanguage = "en"
+
+disqusShortname = "joseluiz"
+googleAnalytics = "UA-115448344-1"
+adsenseDataAdClient = ""
+adsenseDataAdSlot = ""
+
+
+defaultContentLanguage = "pt"
 enableEmoji = true
 languageCode = "pt-br"
-paginate = 4
+paginate = 5
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "José Luiz -  Blog Site"
+title = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
+
+
 [author]
   gravatarEmail = "test@example.com"
   homepageText = "José Luiz"
   name = "José Luiz"
+
 [params]
-  description = "Blog José Luiz sobre SQL, .Net AI"
-  disqusShortname = "joseluiz"
-  googleAnalytics = "UA-115448344-1"
+  description = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
+  keywords = ".Net, C#, Entity Framework, SQL, T-SQL"
+  copyright = "© 2018 José Luiz"
   licence = ""
-  adsenseDataAdClient = ""
-  adsenseDataAdSlot = ""
   addnavleft = ""
   addThisId = "ra-5aa2dff90bb5f212"
+
 [permalinks]
   # posts = "/:year/:month/:day/:slug/"
   posts = "/:slug/"
 [pygmentsOptions]
   linenos = false
+
 [outputs]
   home = ["HTML"]
   page = ["HTML"]

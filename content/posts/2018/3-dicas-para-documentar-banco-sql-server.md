@@ -3,11 +3,11 @@ title: 3 Dicas para Documentar Banco SQL SERVER.
 date: 2018-02-22T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","documentação sql "]
-
-language: en
+language: pt-br
 slug: 3-dicas-para-documentar-banco-sql-server
 author: José luiz
-smallcontent: Ao longo destes anos de desenvolvimento, encontrei banco de dados que não possuem padronização e nem documentação adequada, e com o passar do tempo isto se torna um problema para todos.
+keyword: "Documentar Banco SQL Server"
+excerpt: Ao longo destes anos de desenvolvimento, encontrei banco de dados que não possuem padronização e nem documentação adequada, e com o passar do tempo isto se torna um problema para todos.
 draft: false
 ---
 

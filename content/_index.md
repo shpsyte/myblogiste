@@ -1,9 +1,8 @@
 ---
-title: Homepage
-language: en
+title: José Luiz - Blog 
+language: pt-br
 slug: /
 ---
 
 # Simplicity, Hugo theme.
 
-categories

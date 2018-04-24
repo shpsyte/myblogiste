@@ -1,20 +1,12 @@
 body {
-    font-family: 'PT Mono', sans-serif;
+  background: #ededed;
+  font-family: "Ubuntu",Helvetica,sans-serif !important;
+  background-image:  url('/images/cream_pixels.png')
     /* color: #868e96; */
-    
-    font-size: 16px;
-  line-height: 26px;
-  
-  letter-spacing: .05em;
-  
   
   }
-  
-  @media (min-width: 992px) {
-    #page-top {
-      padding-top: 0;
-    }
-  }
+   
+   
   
   h1,
   h2,
@@ -23,12 +15,52 @@ body {
   h5,
   h6 {
      
-   margin: 50px 0 20px 0;
-  padding: 0;
-  font-family: 'PT Mono', sans-serif;
   font-weight: 400;
   color: #000000;
   }
+ 
+  .card-img-top{
+    border-radius: 0 !important;
+  }
+  .card 
+  {
+    border-radius: 0 !important;
+  }
+
+  .card-header 
+  {
+    border-radius: 0 !important;
+    padding: .25rem 1.25rem !important;
+  }
+
+  .list-group-item
+  {
+
+    padding: .25rem 0rem;
+  }
+.aboutme{
+  line-height: 1.6em;
+  margin-bottom: 20px;
+  font-size: 19px;
+  color: #525252;
+  font-weight: 300;
+}
+  .post p {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #525252;
+    font-weight: 300;
+}
+
+  
+.post_recentes a{
+  color: #525252;
+  font-weight: 300;
+  font-size: 14px;
+  
+}
+
   p{
        
       text-justify: inter-word;
@@ -37,6 +69,8 @@ body {
   ul.timeline{
     height:100%;
   }
+
+
   h1 {
     font-size: 6rem;
     line-height: 5.5rem;
@@ -148,11 +182,7 @@ body {
     color: black;
     line-height: 1.2em;
     text-align: center;
-}
-  .archives {
-    
-  }
-
+} 
   .date
   {
     color: #495057;
@@ -169,27 +199,17 @@ body {
     background: #eee;
     cursor: pointer;
   }
-
-.skills dl {
-
-}
-.skills dl {
-
-}
-
+ 
 .skills dl dt {
     clear: left;
     display: inline;
-    float: left;
     margin: 5px 5px 5px 0;
      
-    width: 100%;
 }
 
 .skills dl dd{
   background: #dfdfdf;
   display: inline;
-  float: left;
   font-size: 1em;
   margin: 5px 3px;
   padding: 3px;

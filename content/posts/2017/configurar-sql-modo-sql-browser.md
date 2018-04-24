@@ -3,11 +3,11 @@ title: Configurar sql em Rede -  Método SQL Browser
 date: 2017-12-21T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","sql em rede"]
-
-language: en
+language: pt-br
 slug: sql-server-em-rede-modo-sql-browser
 author: José luiz
-smallcontent: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando o serviço SQL BROWSER, é um método bastante simples, e garante uma transparência para quem consome o banco de dados, isentando de “conhecer” qual porta conectar. 
+keyword: "SQL, SQL Profile, SQL em Rede"
+excerpt: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER em rede utilizando o serviço SQL BROWSER, é um método bastante simples, e garante uma transparência para quem consome o banco de dados, isentando de “conhecer” qual porta conectar. 
 draft: false
 ---
 

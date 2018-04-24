@@ -3,11 +3,11 @@ title: "Entity Framework Core Global Query Filters"
 date: 2018-03-09T08:00:22-03:00
 categories: ["Entity Framework", "cSharp"]
 tags: ["Entity Framework","EF","Asp.net Core"]
-language: en
+language: pt-br
 slug: entity-framework-core-global-query-filters
-author:
-given_name: José luiz
-smallcontent: Olá galera, vocês conhecem este recurso Global Query Filters ?, Ele nos permite especificar um filtro em nível do modelo e é aplicado automaticamente a todas as consultas que são executadas no contexto..
+author: José Luiz
+keyword: "Entity Framework Core, Global Query"
+excerpt: Olá galera, vocês conhecem este recurso Global Query Filters ?, Ele nos permite especificar um filtro em nível do modelo e é aplicado automaticamente a todas as consultas que são executadas no contexto..
 draft: false
 ---
 

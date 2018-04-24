@@ -1,5 +1,5 @@
 ---
-title: Categories
-language: en
+title: Categorias
+language: pt
 slug: /categories/
 ---

@@ -1,24 +1,36 @@
 {{ define "main" }}
 
-{{ partial "titlesite.html" }}
+{{ if not (eq .Params.type "ebooks") }}
+
+  {{ partial "titlesite.html" }}
   <article>
     <header>
-      <p>
-        
-        <time datetime="{{ .Date.Format "2006-01-02 03:04" }}">
-          {{- .Date.Format "2006-01-02" -}}
-        </time>
-        {{- if .Params.categories }} &bull;
-          {{ range $index, $category := .Params.categories }}
-            {{ if gt $index 0 }}, {{ end }}
-            <a href="{{ $.LanguagePrefix }}{{ "/categories/" | relURL }}{{ . | urlize }}">{{- upper . -}}</a>
-          {{ end }}
-        {{- end -}}
-      </p>
+      <br>
       <h2>
-        {{- .Title -}}
+      {{ if not (eq .Params.type "ebooks") }}
+      <div class="card" style="background-color: #ffff; padding:0.25em; border-radius: 3px !important">
+          {{- .Title -}} 
+          <div class="row">
+          <div class="col-6">
+          <p  class="h6 text-muted font-weight-light" >
+              {{- .Date.Format "02 Jan 2006" -}}, 
+               {{- if .Params.categories }} 
+                 {{ range $index, $category := .Params.categories }}
+                   {{ if gt $index 0 }}, {{ end }}
+                   <a class="h6 font-weight-light text-info" href="{{ $.LanguagePrefix }}{{ "/categories/" | relURL }}{{ . | urlize }}">{{- upper . -}}</a>
+                 {{ end }}
+               {{- end -}}
+         </p>
+        </div>
+        <div class="col-6 text-right">
+         <p class="h6 text-muted font-weight-light">{{ .WordCount }} Palavras, por {{ .Params.author }} </p>        
+        </div>
+        </div>
+      </div>
+      {{ end }}
       </h2>
       <p>
+        
         {{ if .Params.tags }}
           {{ range $index, $tag := .Params.tags }}
             {{ if gt $index 0 }}, {{ end }}
@@ -37,8 +49,21 @@
       {{ if .Site.Params.addThisId }}
         <div class="addthis_inline_share_toolbox"></div>
       {{ end }}
-      {{ partial "disqus.html" . }}
-      <!-- {{ template "_internal/disqus.html" . }} -->
+      
+      {{ template "_internal/disqus.html" . }}
     </footer>
   </article>
+{{ else }}
+{{ partial "titlesite.html" }}
+  {{- .Content -}}
+  <section>
+      {{ partial "adsense.html" . }}
+    </section>
+    <footer>
+      {{ if .Site.Params.addThisId }}
+        <div class="addthis_inline_share_toolbox"></div>
+      {{ end }}
+      {{ template "_internal/disqus.html" . }}
+    </footer>
+{{ end }}
 {{ end }}

@@ -3,11 +3,11 @@ title: SQL Server – Cuidados na Instalação, Collate & Firewall
 date: 2017-12-22T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","instalação sql"]
-
-language: en
+language: pt-br
 slug: sql-server-cuidados-collate-firewall
 author: José luiz
-smallcontent: Olá amigos, neste post vou falar sobre o Setup Inicial da Instalação do Sql Server, melhor collate, e regras do firewall para acesso via Rede/Externo. 
+keyword: "Recuperar Banco SQL, Recovery"
+excerpt: Olá amigos, neste post vou falar sobre o Setup Inicial da Instalação do Sql Server, melhor collate, e regras do firewall para acesso via Rede/Externo. 
 draft: false
 ---
 

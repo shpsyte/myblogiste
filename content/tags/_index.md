@@ -1,5 +1,5 @@
 ---
 title: Tags
-language: en
+language: pt
 slug: /tags/
 ---

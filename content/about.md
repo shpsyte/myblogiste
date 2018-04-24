@@ -1,26 +1,33 @@
 ---
 title: About
 date: 2017-11-09T10:15:01+02:00
-categories: ["about"]
-tags: ["about"]
 language: pt
 slug: about
 --- 
 
-### Sobre
+<br>
 
-<p align="justify">
+
+
+<p class="aboutme" align="justify">
   José Luiz is a
-  <b>computer scientist</b> who is passionate about creating software, business processes and
-  <b>IT Business Partner</b>, with over 15 years of experience in software development.</p>
+  <b>computer scientist</b> who is passionate about creating software yields clean, elegant, readable, and maintainable code. with 10+ years of experience building complex software systems that have been successfully delivered to customers.</p>
+
+<p class="aboutme"  align="justify">
+Always delivered quality software in his code, clean and organized, helping companies to keep up the <b>agile development cycle.</b>
+</p>
+
+<p class="aboutme"  align="justify">
+ Fluency with MS SQL Server Databases and T-SQL.
+</p>
 
 
 <div class="row">
-  <div class="col-6 mr-auto">
-    <img class="img-fluid mt-3" src="/images/me.png" alt="Talk" width="600">
+  <div class="col-4 mr-auto">
+    <img class="img-fluid mt-3" src="/images/me.png" alt="Talk" width="400">
   </div>
-  <div class="col-6">
-    <div class="skills">
+  <div class="col-8">
+    <div class="skills mt-3">
       <dl>
         <dt>Data base</dt>
         <dd>MS-SQL Server</dd>
@@ -62,7 +69,6 @@ slug: about
 
 
 <p align="justify">
- <br>Data science enthusiast, he works with data analytics, data modeling and data architect
  <br>
   Learn more at
   <a href="https://www.linkedin.com/in/joseluizsborges/" target="_blank">LinkedIn </a>

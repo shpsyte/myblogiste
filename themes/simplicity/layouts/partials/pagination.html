@@ -1,16 +1,26 @@
-<ul class="pagination">
-  <li>
-    {{ if .Paginator.HasPrev }}
-      <a href="{{ .Paginator.Prev.URL | relURL }}">
-        {{ i18n "previous" }}
-      </a>
-    {{ end }}
-  </li>
-  <li>
-    {{ if .Paginator.HasNext }}
-      <a href="{{ .Paginator.Next.URL | relURL }}">
-        {{ i18n "next" }}
-      </a>
-    {{ end }}
-  </li>
-</ul>
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item">
+        
+          {{ if .Paginator.HasPrev }}
+          <a class="page-link"  href="{{ .Paginator.Prev.URL | relURL }}">
+            Anterior
+          </a>
+        {{ end }}
+        
+        
+       
+      <li class="page-item">
+          {{ if .Paginator.HasNext }}
+          <a class="page-link" href="{{ .Paginator.Next.URL | relURL }}">
+            Próximo
+          </a>
+        {{ end }}
+        
+        
+       
+      
+      </li>
+    </ul>
+  </nav>
+  

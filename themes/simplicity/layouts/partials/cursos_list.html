@@ -1,0 +1,14 @@
+{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="text-muted font-weight-light">Cursos</h5>
+      </div>
+    <div class="card-body post_recentes">
+      
+      <ul class="list-group list-group-flush">
+        <!-- {{ range $paginator.Pages }}
+          <li class="list-group-item"> <a class="btn btn-link" href="{{ .Permalink | relURL }}">{{ .Title }}</a></li>
+          {{ end }} -->
+        </ul>
+    </div>
+  </div>

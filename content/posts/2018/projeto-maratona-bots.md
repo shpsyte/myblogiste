@@ -5,9 +5,9 @@ categories: ["bots", "cSharp"]
 tags: ["bots-dev","Inteligencia Artificial"]
 language: en
 slug: projeto-inicial-maratona-bots
-author:
-given_name: José luiz
-smallcontent: Projeto final (inicial) da maratona Bots.
+author: José Luiz
+keyword: "Bots C#, Maratona Bots"
+excerpt: Projeto final (inicial) da maratona Bots.
 draft: false
 ---
 

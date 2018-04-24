@@ -3,11 +3,11 @@ title: Recuperar Banco SQL SERVER somente com MDF sem o LDF
 date: 2017-11-25T10:15:01+02:00
 categories: ["Sql-Server"]
 tags: ["sql-server","backup sql"]
-
-language: en
+language: pt-br
 slug: recuperar-banco-sql-server-somente-com-mdf-ldf
 author: José luiz
-smallcontent: Olá amigos, neste vídeo, vou falar sobre o Como recuperar um banco de Dados SQL SERVER somente com o arquivo MDF sem o LDF, além de mostrar tudo em vídeo para um melhor entendimento.
+keyword: "Recuperar Banco SQL, Recovery"
+excerpt: Olá amigos, neste vídeo, vou falar sobre o Como recuperar um banco de Dados SQL SERVER somente com o arquivo MDF sem o LDF, além de mostrar tudo em vídeo para um melhor entendimento.
 draft: false
 ---
 

@@ -1,0 +1,280 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  background-image: none !important;
+  background: #ffffff;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.text-shadow{
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) !important;
+}
+
+header.masthead {
+  position: relative;
+  
+  background: url("../img/bg-header.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+   
+}
+
+.thy{
+  position: relative;
+  background: url("../img/thakyoubg.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.thy .overlay{
+  position: absolute;
+  background-color :#003476;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+    opacity: 0.4; 
+}
+
+.shadown{
+  box-shadow: 0 0 43px 0 #bdc1c5;
+}
+
+header.masthead   .overlay {
+  position: absolute;
+  background-color :#003476;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2; 
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+header.thy h1 {
+  font-size: 2rem;
+}
+
+
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+
+#subirTopo {
+  text-decoration: none;
+  background: rgba(30,156,161,.9);
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+
+  position: fixed;
+  border: 0;
+  font-family: sans-serif;
+  opacity: .8;
+  }
+  
+  #subirTopo:hover {
+  opacity:1;
+  }
+
+  
+@media (min-width: 768px) {
+  header.thy {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  header.thy h1 {
+    font-size: 3rem;
+  }
+}
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: rgb(68, 68, 68); /* IE */
+  background: #ffffff; /* NON-IE */
+}
+.features-bots {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.hederthy
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.features-quote{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+
+}
+.features-bots  {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.features-bots .features-bots-item {
+  max-width: 20rem;
+}
+
+.features-bots .features-bots-item .features-bots-icon {
+  height: 7rem;
+}
+
+.features-bots .features-bots-item .features-bots-icon i {
+  font-size: 4.5rem;
+}
+
+.features-bots .features-bots-item:hover .features-bots-icon i {
+  font-size: 5rem;
+}
+
+
+
+
+.features-business  {
+  padding-top: 3rem;
+  
+}
+
+.features-business .features-business-item {
+  max-width: 20rem;
+}
+
+.features-business .features-business-item .features-business-icon {
+  height: 7rem;
+}
+
+.features-business .features-business-item .features-business-icon i {
+  font-size: 4.5rem;
+}
+
+.features-business .features-business-item:hover .features-business-icon i {
+  font-size: 5rem;
+}
+
+
+
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  /* background-color: #343a40; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* padding-top: 7rem; */
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+
+#header-and-form #responsive-form {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
