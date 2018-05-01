@@ -8,11 +8,11 @@
       <br>
 
       <div class="card" style="background-color: #ffff; border-radius: 3px !important">
-          {{ if .Params.image }}
-          <img class="card-img-top" src="{{ .Params.image }}" width="250" height="250">
-          {{end}}
-          <div class="card-body">
-              <h2>{{- .Title -}}</h2>
+          <!-- {{ if .Params.image }}
+            <img class="card-img-top" src="{{ .Params.image }}" width="250" height="250">
+          {{end}}  -->
+          <div class="card-body text-justify">
+              <p class="h4 font-weight-light post_title">{{- .Title -}}</p>
               <div class="row">
                   <div class="col-6">
                   <p  class="h6 text-muted font-weight-light" >

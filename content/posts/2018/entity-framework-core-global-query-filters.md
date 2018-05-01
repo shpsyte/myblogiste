@@ -1,19 +1,20 @@
 ---
-title: "Entity Framework Core Global Query Filters"
+title: "Como aplicar filtros automáticos a nível de classe usando o Global Query Filters"
 date: 2018-03-09T08:00:22-03:00
 categories: ["Entity Framework", "cSharp"]
 tags: ["Entity Framework","EF","Asp.net Core"]
 language: pt-br
-slug: entity-framework-core-global-query-filters
+slug: como-usar-global-query-filters-em-aplicativos-dotnet-core
 author: José Luiz
+image: https://i.imgur.com/6auDLTq.png
 keyword: "Entity Framework Core, Global Query"
 excerpt: Olá galera, vocês conhecem este recurso Global Query Filters ?, Ele nos permite especificar um filtro em nível do modelo e é aplicado automaticamente a todas as consultas que são executadas no contexto..
 draft: false
 ---
 
- <!-- {{< youtube VB-WXFEapBk >}} -->
+ {{< youtube nPN9dWpQbgI >}}
 
-#### Global Query Filters ou Model-Level Query Filter
+#### Global Query Filters em .Net Core 2.0
 Olá galera, vocês conhecem este recurso **Global Query Filters ou Model-Level Query Filter**?, Ele nos permite especificar um filtro em nível do modelo e é aplicado automaticamente a todas as consultas que são executadas no contexto.
 
 
@@ -37,7 +38,7 @@ Os usos comuns deste recurso são:
 
 #### Exemplo
 O exemplo a seguir mostra como aplicar este filtro para implementar **Soft-Delete**. 
-Esout usando o localDB (Recurso do SQL SERVER), então eu criei uma tabela chamado Customer e fiz alguns insert, e na coluna "Deleted" deixei um registro marcado como excluido.
+Esout usando o <a href="http://www.joseluiz.net/guia-para-desenvolvedores-aprenderem-a-usar-o-localdb/" target="_blank"> localDB </a> (Recurso do SQL SERVER EXPRESS), então eu criei uma tabela chamado Customer e fiz alguns insert, e na coluna "Deleted" deixei um registro marcado como excluido.
 
 ```sql
 Drop table Customer
@@ -52,13 +53,12 @@ GO
 INSERT [dbo].[Customer] ([Name], [Deleted]) VALUES (N'Jose', 1)  
 INSERT [dbo].[Customer] ([Name], [Deleted]) VALUES (N'Joao', 1)  
 INSERT [dbo].[Customer] ([Name], [Deleted]) VALUES (N'Fernanda', 1)  
-INSERT [dbo].[Customer] ([Name], [Deleted]) VALUES (N'Gabriel', 0)  
+INSERT [dbo].[Customer] ([Name], [Deleted]) VALUES (N'Anna', 0)  
 GO
 Select * from Customer
 ```
 
-![Alt text](/images/CreateTable.png "Create Table")
-
+<img src="/images/CreateTable.png" class="img-fluid" alt="Create Table">
 
 ### 1. Definir nossa Entidade
 
@@ -146,8 +146,7 @@ A expressão passada no método HasQueryFilter é aplicada automaticamente a qua
 
 Saída
 
-![Alt text](/images/outputfilter.png "Filtro Aplicado")
-
+<img src="/images/outputfilter.png" class="img-fluid" alt="Filtro Aplicado">
 
 
 #### Desativando filtros globais
@@ -168,7 +167,7 @@ Console.ReadLine();
 
 Saída
 
-![Alt text](/images/outputnofilter.png "Nenhum Filtro Aplicado")
+<img src="/images/outputnofilter.png" class="img-fluid" alt="Nenhum Filtro Aplicado">
 
 
 

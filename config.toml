@@ -4,7 +4,7 @@ disqusShortname = "joseluiz"
 googleAnalytics = "UA-115448344-1"
 adsenseDataAdClient = ""
 adsenseDataAdSlot = ""
-
+baseURLImages = "https://i.imgur.com/"
 
 defaultContentLanguage = "pt"
 enableEmoji = true

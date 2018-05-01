@@ -8,10 +8,11 @@
             
             <div class="card mb-4">
                 {{ if .Params.image }}
-                  <img class="card-img-top" src="{{ .Params.image }}">
+                <a href="{{ .Permalink | relURL }}"><img class="card-img-top" src="{{ .Params.image }}"></a>
+                  
                 {{end}}
                 <div class="card-body post">
-                  <h5 class="card-title h2"><a style="color: #444444 !important" href="{{ .Permalink | relURL }}">{{ .Title }}</a></h5>
+                  <h5 class="card-title font-weight-normal h2"><a style="color: #444444 !important" href="{{ .Permalink | relURL }}">{{ .Title }}</a></h5>
                     <div class="row">
                     <div class="col-md-8">
                         <h6 class="card-subtitle mb-4 text-muted font-weight-light">{{ .Date.Format "02 de Jan de 2006" }} / 

@@ -3,7 +3,7 @@ title: "Projeto Maratona Bots"
 date: 2018-03-07T08:54:22-03:00
 categories: ["bots", "cSharp"]
 tags: ["bots-dev","Inteligencia Artificial"]
-language: en
+language: pt
 slug: projeto-inicial-maratona-bots
 author: José Luiz
 keyword: "Bots C#, Maratona Bots"
