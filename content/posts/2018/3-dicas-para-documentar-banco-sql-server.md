@@ -5,6 +5,7 @@ categories: ["Sql-Server"]
 tags: ["sql-server","documentação sql "]
 language: pt-br
 slug: 3-dicas-para-documentar-banco-sql-server
+image: https://i.imgur.com/BLjOjtr.png
 author: José luiz
 keyword: "Documentar Banco SQL Server"
 excerpt: Ao longo destes anos de desenvolvimento, encontrei banco de dados que não possuem padronização e nem documentação adequada, e com o passar do tempo isto se torna um problema para todos.
@@ -34,7 +35,7 @@ Ao desenvolver um banco de dados, é uma **boa prática comentar o que a coluna 
 
 Estou usando o SSMS, mas você pode adicionar também via SCRIPT
 
-![Alt text](/images/DocColuna.png "Adicionando descrição em colunas sql" )
+<img src="/images/DocColuna.png" alt="Adicionando descrição em colunas sql">
 
 ou pelo script,
 
@@ -53,7 +54,8 @@ A Sacada aqui é uma Stored Procedure que você pode usar a vontade, e enviar ao
 ```
 
 Onde “Customer” é nome da sua tabela, o resultado sai desta maneira:
-![Alt text](/images/DocColunaDesc.png "Resultado" )
+<img src="/images/DocColunaDesc.png" alt="Resultado">
+
 
 
 ```sql
@@ -194,7 +196,8 @@ Muito simples.
 
 A saída é ótima!
 
-![Alt text](/images/docdb.png "Resultado" )
+<img src="/images/docdb.png" class="img-fluid" alt="Resultado">
+
 
 
 ### 3 –  MANTENHA UM SCRIPT DE TODO O BANCO DE DADOS
@@ -208,21 +211,22 @@ Estou usando o gerenciador **SQL SERVER Management Studio,**   e recomendo muito
 #### 1- No Pesquisador de Objetos, 
 expanda Bancos de Dados, clique com o botão direito do mouse em um banco de dados, selecione Tarefas e, em seguida, clique em Gerar Scripts. Siga as etapas do assistente para gerar scripts dos objetos de banco de dados.
 
-![Alt text](/images/GerarScrbanco_step1.png "Gerenciador BD" )
+<img src="/images/doGerarScrbanco_step1cdb.png" class="img-fluid" alt="Gerenciador DB">
+
 
 
 
 #### 2 – Na página Escolher Objetos, 
 selecione os objetos a serem incluídos no script, neste caso deixa a opção gerar script de todo o banco e objetos
 
-![Alt text](/images/GerarScrbanco_step2.png "Objetos BD" )
+<img src="/images/GerarScrbanco_step2.png" class="img-fluid" alt="Objetos DB">
 
 
 
 #### 3- Na página Definir Opções de Script, 
 selecione Salvar scripts em um local específico.
 
-![Alt text](/images/GerarScrbanco_step3.png "Step 3" )
+<img src="/images/GerarScrbanco_step3.png" class="img-fluid" alt="Step 3">
 
 
 
@@ -239,12 +243,13 @@ em um arquivo, em uma janela do Editor de Consulta do Mecanismo de Banco de Dado
 
 #### 4- Na página Resumo, revise suas seleções.
 
-![Alt text](/images/GerarScrbanco_step4.png "Step 4" )
+<img src="/images/GerarScrbanco_step4.png" class="img-fluid" alt="Step 4">
+
 
 #### 5- Na página Salvar ou Publicar Scripts, 
 monitore o progresso da geração do script.
 
-![Alt text](/images/GerarScrbanco_step5.png "Step 5" )
+<img src="/images/GerarScrbanco_step5.png" class="img-fluid" alt="Step 5">
 
 
 
@@ -253,8 +258,7 @@ monitore o progresso da geração do script.
 Confesso que ainda não **achei uma ferramenta que me satisfaça 100% para a documentação de SP, VIEWS e FUNCTIONS**  o que eu faço é simplesmente criar um documento no **WORD ou HTML e escrever lá os parâmetros de cada  SP, FUNCTION E VIEW,** e separar por área de negócio, por exemplo uma Stored Procedure que retorno o preço médio de venda de um determinado produto:
 
 
-![Alt text](/images/Docprocedure.png "Step SP" )
-
+  <img src="/images/Docprocedure.png" class="img-fluid" alt="Step sp">
 
 
 Das ferramentas gratuitas não encontrei **nenhuma que eu tenha gostado,**  mas assim está funcionando perfeitamente e se houver mudança eu volto a comentar sobre isso..

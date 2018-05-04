@@ -8,7 +8,7 @@ slug: projeto-inicial-maratona-bots
 author: José Luiz
 keyword: "Bots C#, Maratona Bots"
 excerpt: Projeto final (inicial) da maratona Bots.
-draft: false
+draft: true
 ---
 
 

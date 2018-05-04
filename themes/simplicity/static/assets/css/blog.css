@@ -59,6 +59,10 @@ body {
     font-weight: 300;
 }
 
+blockquote {
+  width: 100% !important;
+}
+
 .post_title
 {
   letter-spacing: .021em;

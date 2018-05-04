@@ -29,10 +29,13 @@ O LocalDB é *muito fácil de instalar e configurar* e existem dois métodos de 
 
 Em ambos métodos o processo será praticamente o mesmo, e o resultado **será extamente o mesmo**, então vou mostrar a instalação usando o arquivo ***msi***, já que o segundo método vai apenas baixar o mesmo arquivo e executar em seu computador.
 
+
+
+
 #### 1. Fazendo o Download do Arquivo
 Você pode fazer o download do arquivo usando este <a href="https://www.microsoft.com/en-US/download/details.aspx?id=42299" target="_blank">   Sql Server 2014 Express </a> e escolha a versão correta da sua plataforma (32 ou 64 bits), note o tamanho do arquivo, muito pequeno.
 
-<img src="https://i.imgur.com/vh1kpV6.png" class="img-fluid" alt="Download arquivo MSI do localBD" text="Download arquivo MSI do localBD">
+<img src="https://i.imgur.com/vh1kpV6.png"  class="img-fluid" alt="Download arquivo MSI do localBD" text="Download arquivo MSI do localBD" >
 
 #### 2. Instalando o arquivo MSI
 <br>
