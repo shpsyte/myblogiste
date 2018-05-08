@@ -19,11 +19,11 @@ slug: e-books-e-livros-programacao
 <p class="aboutme" align="justify">
 Muitos livros e ebooks <b>são gratuitos</b>, outros são pagos e estão à venda na Amazon.
 </p>
- 
+  
 
 <div class="row">
   <div class="col-md-3">
-  <a href="/ebooks/ebook-criar-chatbot-inteligentes">
+  <a href="/lp/ebooks/ebook-criar-chatbot-inteligentes">
         <img style="float:left" src="/images/ebook-criar-chatbot-inteligentes.png"/></a>
   </div>
 </div>

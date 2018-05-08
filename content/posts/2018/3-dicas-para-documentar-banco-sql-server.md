@@ -59,7 +59,6 @@ Onde “Customer” é nome da sua tabela, o resultado sai desta maneira:
 
 
 ```sql
-
 CREATE PROCEDURE sp_desc (
   @tableName  nvarchar(128)
 )
@@ -85,6 +84,11 @@ BEGIN
   SELECT @schemaName = PARSENAME(@tableName, 2);
   IF @schemaName IS NULL SELECT @schemaName = SCHEMA_NAME();
 
+  SELECT TOP 1 @schemaName = TABLE_SCHEMA 
+    FROM INFORMATION_SCHEMA.TABLES
+   WHERE  TABLE_NAME= @tableName
+
+
   SELECT @objectName = PARSENAME(@tableName, 1);
   IF @objectName IS NULL
     BEGIN
@@ -101,6 +105,7 @@ BEGIN
 
   SELECT @tmpTableName = '#TEMP_DESCRIBE_' + CAST(@@SPID AS VARCHAR) + REPLACE(REPLACE(REPLACE(REPLACE(CAST(CONVERT(CHAR, GETDATE(), 121) AS VARCHAR), '-', ''), ' ', ''), ':', ''), '.', '');
   --PRINT @tmpTableName;
+    
   SET @sqlCmd = '
     USE ' + @databaseName + '
     CREATE TABLE ' + @tmpTableName + ' (
@@ -112,6 +117,11 @@ BEGIN
      ,[Default]           nvarchar(4000)
      ,[Comments]          nvarchar(3750));
 
+   INSERT INTO ' + @tmpTableName + '
+    SELECT objname, NULL, NULL, NULL, NULL, NULL, Convert(NVARCHAR(3750),value )  
+      FROM fn_listextendedproperty (NULL, ''schema'', ''' + @schemaName + ''', ''table'', default, NULL, NULL)
+      WHERE objname = ''' + @objectName + ''';
+      
     INSERT INTO ' + @tmpTableName + '
     SELECT
       a.[NAME]
@@ -149,7 +159,7 @@ BEGIN
            CAST(value AS NVARCHAR(3750))                        AS [COMMENTS]
           ,CAST(objname AS NVARCHAR)                            AS [NAME]
          FROM
-           ::fn_listextendedproperty (''MS_Description'', ''user'', ''' + @schemaName + ''', ''table'', ''' + @objectName + ''', ''column'', default)
+           ::fn_listextendedproperty (''MS_Description'', ''schema'', ''' + @schemaName + ''', ''table'', ''' + @objectName + ''', ''column'', default)
       ) b
       ON a.NAME COLLATE SQL_Latin1_General_CP1_CI_AS = b.NAME COLLATE SQL_Latin1_General_CP1_CI_AS
     ORDER BY
@@ -157,7 +167,7 @@ BEGIN
 
     SELECT * FROM ' + @tmpTableName + ';'
 
-    --PRINT @sqlCmd;
+   -- PRINT @sqlCmd;
 
     EXEC sp_executesql @sqlCmd;
     RETURN;
