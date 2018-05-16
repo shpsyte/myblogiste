@@ -1,8 +1,8 @@
 ---
 title: "Você não pode ficar de fora desta tendência!"
 date: 2018-05-09T13:18:55-03:00
-categories: ["Inteligência Artificial, Machine Learning"]
-tags: ["inteligencia-artificial","machine-learning"]
+categories: ["Empreendedorismo","Inteligência Artificial"]
+tags: ["Empreendedorismo","Inteligência Artificial"]
 language: pt-br
 slug: voce-nao-pode-ficar-de-fora-da-inteligencia-artificial-e-machine-learning
 image: https://i.imgur.com/80x8GzV.png
