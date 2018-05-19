@@ -14,7 +14,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
+title = "José Luiz - Artigos sobre Desenvovimento de Software, C#, Entity Framework, SQL e Empreendedorismo"
 
 
 [author]

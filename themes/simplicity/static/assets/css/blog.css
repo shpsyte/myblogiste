@@ -1,12 +1,10 @@
 body {
   background: #ededed;
-  font-family: "Ubuntu",Helvetica,sans-serif !important;
   background-image:  url('/images/cream_pixels.png');
-    /* color: #868e96; */
     font-size: 1.2rem !important;
     font-weight: 300;
     line-height: 1.52947;
-    letter-spacing: -.021em;
+    letter-spacing: .011em;
     color: #212529;
     text-align: left;
 
