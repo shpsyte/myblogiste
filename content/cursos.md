@@ -24,3 +24,15 @@ slug: cursos-online-programacao
   
   <b>enjoy</b>.</b>
 </p>
+
+
+
+
+<div class="row">
+  <div class="col-md-3">
+  <a href="/curso-introducao-desenvolvimento-bot-framework-microsoft">
+        <img style="float:left" src="https://i.imgur.com/4AVAhPX.png"/></a>
+  </div>
+</div>
+
+ 
