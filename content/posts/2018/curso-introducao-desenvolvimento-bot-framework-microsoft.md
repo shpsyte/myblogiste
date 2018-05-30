@@ -52,14 +52,14 @@ Foi criado uma <a href="https://www.youtube.com/watch?v=_jdL2h5w57c&list=PLKFPj_
 
 
 ##### Módulo 1
-1. Apresentação do Curso
-2. O que é um Bot e suas principais aplicações
-3. Por quê usar o Bot Framework
-4. Componentes necessários e Setup do Ambiente
+1. <a href="https://www.youtube.com/watch?v=nhSx5YXy1VA" target="_blank">Apresentação do Curso</a>
+2. <a href="https://www.youtube.com/watch?v=4cRoGHzhVIY" target="_blank">O que é um Bot e suas principais aplicações</a>
+3. <a href="https://www.youtube.com/watch?v=yfRdJJPQc2c" target="_blank">Por quê usar o Bot Framework</a>
+4. <a href="https://www.youtube.com/watch?v=8SPaK3s8lwI" target="_blank">Componentes necessários e Setup do Ambiente</a>
 
 ##### Módulo 2 
-1. Criando e Explorando o nosso Bot
-2. Conceitos Chaves do Bot Framework
+1. <a href="https://www.youtube.com/watch?v=etjl2e3kiSw" target="_blank">Criando e Explorando o nosso Bot</a>
+2. <a href="https://www.youtube.com/watch?v=5Rzi80BhNAo" target="_blank">Conceitos Chaves do Bot Framework</a>
 3. Trabalhando com HeroCard, ImageCard, VideoCard
 4. Tipo de Dialog, Prompt, MultiDialog
 5. Inteligencia NÃO ARTIFICIAL, criando um dialog respondendo a matemática
