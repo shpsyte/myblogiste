@@ -2,7 +2,7 @@
 title: "Como aplicar filtros automáticos a nível de classe usando o Global Query Filters"
 date: 2018-03-09T08:00:22-03:00
 categories: ["Entity Framework", "cSharp"]
-tags: ["Entity Framework","EF","Asp.net Core"]
+tags: ["Entity Framework","EF","ASP.NET Core"]
 language: pt-br
 slug: como-usar-global-query-filters-em-aplicativos-dotnet-core
 author: José Luiz

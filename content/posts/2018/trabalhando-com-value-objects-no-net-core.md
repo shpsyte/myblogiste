@@ -2,7 +2,7 @@
 title: "Trabalhando com Value Objects em .Net Core 2.0"
 date: 2018-05-02T10:57:38-03:00
 categories: ["Entity Framework", "cSharp", ".Net Core"]
-tags: ["Entity Framework","EF","Asp.net Core", "Value Objects"]
+tags: ["Entity Framework","EF","ASP.NET Core", "Value Objects"]
 language: pt-br
 slug: trabalhando-com-value-objects-aspnet-core
 author: José Luiz

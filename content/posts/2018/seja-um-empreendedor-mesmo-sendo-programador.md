@@ -2,7 +2,7 @@
 title: "Seja Um Empreendedor Mesmo Sendo Programador!"
 date: 2018-05-25T16:28:18-03:00
 categories: ["Empreendedorismo","Carreira"]
-tags: ["Empreendedorismo","Desenvolvimento Software","c"]
+tags: ["Empreendedorismo","Desenvolvimento Software"]
 language: pt-br
 slug: seja-um-empreendedor-mesmo-sendo-programador
 image: https://i.imgur.com/PFM5lyP.png
