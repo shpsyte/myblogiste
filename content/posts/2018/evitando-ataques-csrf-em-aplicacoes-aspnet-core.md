@@ -1,10 +1,10 @@
 ---
-title: "Criando Aplicações Seguras Com ASP.NET Core e Javascript"
+title: "Evitando ataques CSRF em aplicações ASP.NET Core"
 date: 2018-07-13T14:39:43-03:00
 categories: ["cSharp", ".Net Core"]
 tags: ["ASP.NET Core", "Segurança", "CSRF"]
 language: pt-br
-slug: criando-aplicacoes-seguras-com-aspnet-core-e-javascript
+slug: evitando-ataques-csrf-em-aplicacoes-aspnet-core
 image: https://i.imgur.com/iPhXpVq.png
 author: José luiz
 keyword: "ASP.NET Core, CSRF, Segurança"
