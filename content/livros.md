@@ -17,7 +17,7 @@ slug: e-books-e-livros-programacao
 <b>Ebook e Livros.</b> Aqui você vai encontrar no formato digital ebook e livros. Todos são digitais porque neste formato consigo oferecer um conteúdo de alta qualidade a baixo custo e você pode ler em qualquer lugar e a qualquer hora, no seu smartphone, tablet e computador.</p>
 
 <p class="aboutme" align="justify">
-Muitos livros e ebooks <b>são gratuitos</b>, outros são pagos e estão à venda na Amazon.
+Muitos livros e ebooks <b>são gratuitos</b>.
 </p>
   
 

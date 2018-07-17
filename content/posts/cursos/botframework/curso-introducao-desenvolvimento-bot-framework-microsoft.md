@@ -28,6 +28,7 @@ Olá, hoje a inteligência artificial é uma tendência dentro da empresas, e vo
 Venha fazer parte deste curso e aprimore seus conhecimentos nesta área que cresce cada dia!
 
 ***Você ira aprender:***
+
 1. Criar CHATBOT usando Bot Framework Microsoft
 2. Conceitos básicos e avançados do BOT
 3. Usar a inteligência Artificial para ***TURBINAR*** seu BOT
