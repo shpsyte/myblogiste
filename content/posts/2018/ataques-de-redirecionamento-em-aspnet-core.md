@@ -12,8 +12,7 @@ excerpt: Neste post sobre segurança em .Net Core, vamos falar sobre o ataque de
 draft: false
 ---
 
-<img src="https://i.imgur.com/5pIRddV.png"  class="img-fluid" alt="Evitando ataques de redirecionamento" text="Evitando ataques de redirecionamento" >
- <!-- {{< youtube mRj7HebLAGk >}} -->
+{{< youtube 7vMylg7FhaQ >}} 
 
 <br>
 

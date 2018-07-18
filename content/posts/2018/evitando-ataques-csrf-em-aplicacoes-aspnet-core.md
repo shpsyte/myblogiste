@@ -12,8 +12,7 @@ excerpt: Quer deixar suas aplicações .Net Core (e MVC) seguras contra ataques 
 draft: false
 ---
 
-<img src="https://i.imgur.com/iPhXpVq.png"  class="img-fluid" alt="Download arquivo MSI do localBD" text="Download arquivo MSI do localBD" >
- <!-- {{< youtube mRj7HebLAGk >}} -->
+{{< youtube w9ORoCHr_gw >}} 
 
 <br>
 
