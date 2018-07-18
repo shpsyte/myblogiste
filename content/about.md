@@ -11,15 +11,18 @@ slug: about
 
 <p class="aboutme" align="justify">
   José Luiz is a
-  <b>computer scientist</b> who is passionate about creating software yields clean, elegant, readable, and maintainable code. with 10+ years of experience building complex software systems that have been successfully delivered to customers.</p>
+  <b>computer scientist</b> who is passionate about creating software yields clean, elegant, readable, and maintainable code. with 12+ years of experience building complex software systems that have been successfully delivered to customers.</p>
+
+<p class="aboutme" align="justify">
+  My path as an IT professional has been formed in the past 12 years. During this period, I’ve had a lot of amazing opportunities to learn and to apply my knowledge of different technology.
+</p>
+
 
 <p class="aboutme"  align="justify">
 Always delivered quality software in his code, clean and organized, helping companies to keep up the <b>agile development cycle.</b>
 </p>
 
-<p class="aboutme"  align="justify">
- Fluency with MS SQL Server Databases and T-SQL.
-</p>
+If you feel that I can provide you with value, I encourage you to add me to your networking circles!
 
 
 <div class="row">
@@ -29,17 +32,18 @@ Always delivered quality software in his code, clean and organized, helping comp
   <div class="col-8">
     <div class="skills mt-3">
       <dl>
+        <dt>Programming:</dt>
+        <dd>C#</dd>
+        <dd>.Net MVC</dd>
+        <dd>.Net MVC Core</dd>
+        <dd>Javascript</dd>
+        <dd>HTML</dd>
+        <dd>T-SQL</dd>
+      </dl>
+      <dl>
         <dt>Data base</dt>
         <dd>MS-SQL Server</dd>
         <dd>Oracle</dd>
-      </dl>
-      <dl>
-        <dt>Programming:</dt>
-        <dd>C#</dd>
-        <dd>T-SQL</dd>
-        <dd>Asp.Net</dd>
-        <dd>Delphi</dd>
-        <dd>MVC</dd>
       </dl>
       <dl>
         <dt>Hobbies &amp; Interesses:</dt>
@@ -49,7 +53,6 @@ Always delivered quality software in his code, clean and organized, helping comp
         <dd>Reader</dd>
         <dd>Coffe</dd>
         <dd>Vegetarian</dd>
-        <dd>Artificial Intelligence</dd>
       </dl>
     </div>
 
@@ -60,7 +63,7 @@ Always delivered quality software in his code, clean and organized, helping comp
 
 <p align="justify">
   Currently, he works as
-  <b>Software Engineer</b> at
+  <b>Senior Software Engineer</b> at
   <a href="http://www.iscosistemas.com/" target="_blank">Isco</a>, where he is helping to shape new disruptive services based in
   <b>Cloud Computing and Artificial Intelligence.</b>
   
