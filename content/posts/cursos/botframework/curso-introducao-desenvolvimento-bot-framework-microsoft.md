@@ -9,7 +9,7 @@ image: https://i.imgur.com/DgoZUmY.png
 author: José luiz
 keyword: "Carreira, Desenvolvimento Bot Framework Microsoft, BOT Framework"
 excerpt: Quer aprender a desenvolver BOT Inteligente e aprimorar ainda mais sua carreira ? Neste curso vamos desenvolver juntos um BOT realmente funcional usando Inteligência Artificial!
-draft: false
+draft: true
 ---
 
 
