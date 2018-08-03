@@ -13,6 +13,7 @@ draft: false
 ---
 
 <!-- {{< youtube VB-WXFEapBk >}} -->
+<img src="https://i.imgur.com/JTH2Wya.png" class="img-fluid" alt="First Results">
 
 #### Banco de dados do usuário
 E ai pessoal, tudo bem? Vocês ja precisaram alterar o caminho de um banco de dados SQL Server? Sabe como fazê-lo? Se não sabe então acompanha os passos super simples para você mover o banco de dados sql server
