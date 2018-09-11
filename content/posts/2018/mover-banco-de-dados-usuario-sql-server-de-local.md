@@ -49,12 +49,14 @@ E para isso, os passos são **MEGA SIMPLES**! Antes de mais nada faça um **back
 <img src="https://i.imgur.com/mCrxGKO.png" class="img-fluid" alt="First Results">
 
 
-Ok, sabemos o nome lógico dos arquivos, ***Data*** e ***Log***, diante disso basta executar os seguintes passos :
+Ok, sabemos o nome lógico dos arquivos, ***Data*** e ***Log***, diante disso basta executar os seguintes passos.
 
-1. Deixe o banco OFFLINE
+
+1. Deixe o banco OFFLINE.
 ```sql
 ALTER DATABASE Vancouver SET OFFLINE;  
 ```
+
 2. Mova TODOS os arquivos para o novo local.
 
 3. Para cada arquivo movido, execute a seguinte instrução.
