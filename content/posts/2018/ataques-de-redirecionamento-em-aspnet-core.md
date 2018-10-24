@@ -12,17 +12,15 @@ excerpt: Neste post sobre segurança em .Net Core, vamos falar sobre o ataque de
 draft: false
 ---
 
-{{< youtube 7vMylg7FhaQ >}} 
+{{< youtube 7vMylg7FhaQ >}}
 
 <br>
 
 Olá, tudo bem ? Neste post sobre segurança em .Net Core, vamos falar sobre o ataque de redirecionamento ab erto, também muito comum a sistemas, vamos usar uma técnica ***simples*** para evitá-la.
 
-
 Antes de mais nada: O **Redirecionamento Aberto** (do inglês open redirect) É um técnica que consiste em "enganar o usuário" afim  de ele nos fornecer suas credenciais baseado em uma página web clonada.
 
 Quando você acessa algum recurso no sistema que é protegido por autenticação, o sistema redireciona para a página de login, e após você informar seus dados de acesso o sistema redireciona novamente para a página de solicitada. É nesta confiança que este ataque se basea...
-
 
 <br>
 #### Gravidade

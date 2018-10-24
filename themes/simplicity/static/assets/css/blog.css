@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #ededed;
   background-image:  url('/images/cream_pixels.png');
@@ -10,7 +14,31 @@ body {
 
   }
    
+    #sideNav .navbar-brand {
+    margin: auto auto 0 !important;
+    padding: 0.5rem;
+
+} 
+@keyframes fade-in-up {
+  0% { opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
  
+.img-portifolio{
+  max-width: 250px;
+  filter: blur(2px) sepia(5%);
+  z-index: -1; position:relative;
+}
+
+  .stuck {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 200px;
+    transform: translateY(100%);
+    animation: fade-in-up .25s ease forwards;
+  }
   
   h1,
   h2,
@@ -22,7 +50,16 @@ body {
   font-weight: 400;
   color: #000000;
   }
- 
+  .container {
+
+    max-width: 1095px !important;
+
+}
+  .menu-title
+  {
+    font-size: 14px;
+    font-weight: 400 !important;
+  }
   .card-img-top{
     border-radius: 0 !important;
   }

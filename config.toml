@@ -9,7 +9,7 @@ baseURLImages = "https://i.imgur.com/"
 defaultContentLanguage = "pt"
 enableEmoji = true
 languageCode = "pt-br"
-paginate = 15
+paginate = 5
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
@@ -27,7 +27,7 @@ title = "José Luiz - Artigos sobre Desenvovimento de Software, C#, Entity Frame
   keywords = ".Net, C#, Entity Framework, SQL, T-SQL"
   copyright = "© 2018 José Luiz"
   licence = ""
-  addnavleft = ""
+  addnavleft = "true"
   addThisId = "ra-5aa2dff90bb5f212"
 
 [permalinks]

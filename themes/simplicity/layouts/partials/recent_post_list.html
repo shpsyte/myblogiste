@@ -5,9 +5,9 @@
   <div class="card-body post_recentes">
 
     <ul class="list-group list-group-flush">
-      {{ range first 5 (where .Site.Pages "Section" "posts")  }}
+      {{ range first 7 (where .Site.Pages "Section" "posts")  }} 
       <li class="list-group-item">
-        <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
+         <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
       </li>
       {{ end }}
 

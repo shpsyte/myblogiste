@@ -1,7 +1,7 @@
-import '../styles/styles'
+// import '../styles/styles'
 
-import baguetteBox from 'baguettebox.js'
+// import baguetteBox from 'baguettebox.js'
 
-document.addEventListener('DOMContentLoaded', function(event) {
-  baguetteBox.run('main', {})
-})
+// document.addEventListener('DOMContentLoaded', function(event) {
+//   baguetteBox.run('main', {})
+// })

@@ -1,8 +1,10 @@
 {{ define "main" }}
 <div class="container">
     {{ partial "titlesite.html" }}
+    
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
     <div class="row mt-3">
+        
         <div class="col-md-8">
             {{ range $paginator.Pages }}
             
@@ -32,18 +34,19 @@
                     </div>
                     </div>
                   <p class="card-text">{{ .Params.excerpt }}</p>
-                  <a class="btn btn-outline-info" href="{{ .Permalink | relURL }}">Continue lendo</a>
+                  <a class="btn btn-outline-info btn-block" href="{{ .Permalink | relURL }}">Continuar lendo...</a>
                 </div>
               </div>
             {{ end }}
         </div>
+        
         <div class="col-md-4">
            {{ partial "subscribe.html" . }}
            {{ partial "social_media.html" . }}
-           {{ partial "cursos_list.html" . }}
+           <!-- {{ partial "cursos_list.html" . }} -->
            {{ partial "recent_post_list.html" . }}
         </div>
-      </div>
+    </div>
       
   {{ partial "pagination.html" . }}
 </div>
