@@ -12,8 +12,8 @@ excerpt: Será que o Cursor em Sql Server não é exatamente a melhor opção pa
 draft: false
 ---
 
- {{< youtube 4b1aCokk4ps >}}
-
+ <!-- {{< youtube 4b1aCokk4ps >}} -->
+<img src="https://i.imgur.com/dfUvFr1.png" class="img-fluid" alt="">
 <br>
 
 #### Cursor em SQL Server

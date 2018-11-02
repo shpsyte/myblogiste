@@ -12,7 +12,8 @@ excerpt: Olá, você conheçe o LocalDB? Não ? É um recurso incrível do SQL S
 draft: false
 ---
 
-{{< youtube cN9p97NVtUg >}} 
+<!-- {{< youtube cN9p97NVtUg >}}  -->
+<img src="https://i.imgur.com/ATGZCrY.png" class="img-fluid" alt="">
 <br>
 #### Guia para desenvolvedores aprenderem a usar o localdb em seus desenvolvimentos
 Olá, você conhece o **LocalDB** ? Não ? Então acompanhe este **post até o final** que eu tenho certeza que você vai começar a usar este recurso incrível para sua programação de softwares e aplicativos.

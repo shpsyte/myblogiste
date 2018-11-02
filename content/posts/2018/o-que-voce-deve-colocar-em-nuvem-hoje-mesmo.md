@@ -13,7 +13,8 @@ draft: false
 ---
 
 
- {{< youtube _jdL2h5w57c >}}
+ <!-- {{< youtube _jdL2h5w57c >}} -->
+ <img src="https://i.imgur.com/5JGd3MX.png" class="img-fluid" alt="">
 
 <br>
 

@@ -11,7 +11,7 @@ excerpt: Olá amigos, neste post vou falar sobre o Setup Inicial da Instalação
 draft: false
 ---
 
- {{< youtube A8C5ofFp68I >}}
+ <!-- {{< youtube A8C5ofFp68I >}} -->
 ### Obs
 Você deve primeiro escolher a versão do SQL SERVER que irá trabalhar em seus projetos, neste post estou usando a versão 2014 EXPRESS EDITION, mas é compatível com versões anteriores como 2005, 2008 e 2012.
 

@@ -11,7 +11,8 @@ excerpt: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER e
 draft: false
 ---
 
- {{< youtube t095JhqXduQ >}}
+ <!-- {{< youtube t095JhqXduQ >}} -->
+ <!-- <img src="https://i.imgur.com/QFWmhnW.png" class="img-fluid" alt="Rename DATABASE"> -->
 
 ### Obs
 Vale apena lembra que existem muitas maneiras de fazer este procedimento, esta é apenas uma delas e não estou usando o SQL BROWSER.

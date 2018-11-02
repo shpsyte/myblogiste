@@ -12,8 +12,8 @@ excerpt: Já parou para pensar o quanto vale a sua hora de trabalho ? Calma que 
 draft: false
 ---
 
-
- {{< youtube xdsg3ePJVyw >}}
+<img src="https://i.imgur.com/5mAvpvV.png" class="img-fluid" alt="">
+ <!-- {{< youtube xdsg3ePJVyw >}} -->
 
 <br>
 

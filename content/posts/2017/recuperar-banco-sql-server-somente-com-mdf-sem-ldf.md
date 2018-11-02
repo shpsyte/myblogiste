@@ -11,7 +11,7 @@ excerpt: Olá amigos, neste vídeo, vou falar sobre o Como recuperar um banco de
 draft: false
 ---
 
- {{< youtube ukJ5nrRzNa0 >}}
+ <!-- {{< youtube ukJ5nrRzNa0 >}} -->
 
 ### Obs
 Estou usando a versão SQL **SERVER EXPRESS 2014** mas é compatível com versões anteriores como 2005, 2008 e 2012. Lembre-se que manter uma **política de BACKUP é extremamente necessário**, em outro post vou falar tudo o que precisa saber sobre planos de recuperação, mas hoje vamos focar em recuperar o banco ok ?

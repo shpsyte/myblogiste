@@ -13,7 +13,7 @@ draft: false
 ---
 
 
-
+<img src="https://i.imgur.com/kji7sSs.png" class="img-fluid" alt="">
  <!-- {{< youtube VB-WXFEapBk >}} -->
 
 #### SQL profiler

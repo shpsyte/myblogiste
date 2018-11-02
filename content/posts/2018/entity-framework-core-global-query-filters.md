@@ -12,7 +12,8 @@ excerpt: Olá galera, vocês conhecem este recurso Global Query Filters ?, Ele n
 draft: false
 ---
 
- {{< youtube nPN9dWpQbgI >}}
+<img src="https://i.imgur.com/6auDLTq.png" class="img-fluid" alt="">
+ <!-- {{< youtube nPN9dWpQbgI >}} -->
 
 #### Global Query Filters em .Net Core 2.0
 Olá galera, vocês conhecem este recurso **Global Query Filters ou Model-Level Query Filter**?, Ele nos permite especificar um filtro em nível do modelo e é aplicado automaticamente a todas as consultas que são executadas no contexto.

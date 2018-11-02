@@ -11,7 +11,7 @@ excerpt: Olá amigos, neste post vou falar sobre o liberar o uso do SQL SERVER e
 draft: false
 ---
 
- {{< youtube VQYVDKxlk2s >}}
+ <!-- {{< youtube VQYVDKxlk2s >}} -->
  
 ### Obs
 Na inicialização do servidor SQL, o **SQL BROWSER** é iniciado e ocupa a porta 1434(UDP), este serviço lê o registro do SQL e identifica todas as instâncias no computador e grava as portas e os pipes nomeados logo ao se conectar, os clientes não precisa determinar a porta e sim a o nome da instância do SQL SERVER. Portanto, o número correto da porta será desconhecido para o cliente.

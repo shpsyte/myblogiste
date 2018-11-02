@@ -12,7 +12,8 @@ excerpt: Neste post sobre segurança em .Net Core, vamos falar sobre o ataque de
 draft: false
 ---
 
-{{< youtube 7vMylg7FhaQ >}}
+<!-- {{< youtube 7vMylg7FhaQ >}} -->
+<img src="https://i.imgur.com/5pIRddV.png" class="img-fluid" alt="">
 
 <br>
 

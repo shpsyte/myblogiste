@@ -12,7 +12,8 @@ excerpt: Quer deixar suas aplicações .Net Core (e MVC) seguras contra ataques 
 draft: false
 ---
 
-{{< youtube w9ORoCHr_gw >}} 
+<!-- {{< youtube w9ORoCHr_gw >}}  -->
+<img src="https://i.imgur.com/iPhXpVq.png" class="img-fluid" alt="">
 
 <br>
 

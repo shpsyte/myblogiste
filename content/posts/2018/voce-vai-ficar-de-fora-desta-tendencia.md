@@ -13,8 +13,8 @@ draft: false
 ---
 
 
- {{< youtube IYMaBvAvUJI >}}
-
+ <!-- {{< youtube IYMaBvAvUJI >}} -->
+<img src="https://i.imgur.com/80x8GzV.png" class="img-fluid" alt="">
 <br>
 
 #### Inteligência Artificial

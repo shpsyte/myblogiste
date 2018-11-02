@@ -12,7 +12,8 @@ excerpt: Olá, hoje eu quero falar com você sobre Value Objects em .net Core, u
 draft: false
 ---
 
- {{< youtube mRj7HebLAGk >}}
+ <!-- {{< youtube mRj7HebLAGk >}} -->
+ <img src="https://i.imgur.com/ms6ChkG.png" class="img-fluid" alt="">
 
 <br>
 

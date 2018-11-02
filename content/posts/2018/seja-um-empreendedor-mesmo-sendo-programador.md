@@ -13,7 +13,8 @@ draft: false
 ---
 
 
- {{< youtube mqCR_s9jjXM >}}
+ <!-- {{< youtube mqCR_s9jjXM >}} -->
+ <img src="https://i.imgur.com/PFM5lyP.png" class="img-fluid" alt="">
 
 <br>
 #### <a href="https://www.youtube.com/user/thetvisco?sub_confirmation=1" target="_blank">Se increva em nosso canal</a>

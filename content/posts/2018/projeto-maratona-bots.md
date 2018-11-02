@@ -12,7 +12,8 @@ draft: true
 ---
 
 
- {{< youtube VB-WXFEapBk >}}
+ <!-- {{< youtube VB-WXFEapBk >}} -->
+ 
 
 #### Bot's
 Fala galera, este projeto é meu projeto final da maratona Bots, onde desenvolvi um Bot que tem o objetivo 
