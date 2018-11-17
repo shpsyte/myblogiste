@@ -1,25 +1,28 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fixed-top  ">
-  <a class="navbar-brand" href="/">
-    <img src="http://joseluiz.net/images/logo-jose-d.png" alt="Blog do José Luiz: 
-     Desenvolvimento de Software para empresas" style="height: 65px;">
+  <a class="navbar-brand" href="{{- (string .Lang) }}/">
+    <img src="http://joseluiz.net/images/logo-jose-d.png" alt="Blog" style="height: 65px;">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-    aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
     <ul class="navbar-nav mr-auto mt-2">
       <li class="nav-item ml-1">
-        <a class="nav-link text-uppercase text-black menu-title" href="/">BLOG
+         
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "blog/" | absLangURL }}">BLOG
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item ml-1">
-        <a class="nav-link text-uppercase  text-black menu-title" href="/archives/">Arquivos</a>
+
+        <!-- <a class="nav-link text-uppercase  text-black menu-title" 
+        href="/archives/">Arquivos</a> -->
       </li>
       <li class="nav-item ml-1">
-        <a class="nav-link text-uppercase text-black menu-title" href="/categories">Categorias</a>
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/categories" | absLangURL }}">Categorias</a>
       </li>
       <!-- <li class="nav-item ml-1">
         <a class="nav-link text-uppercase text-success menu-title" href="/cursos-online-programacao">Cursos</a>
@@ -28,23 +31,22 @@
         <a class="nav-link text-uppercase text-black menu-title" target="_blank" href="https://www.youtube.com/channel/UCWvI2zvMqYQZFff1x66CGBw?view_as=subscriber">Videos</a>
       </li>  -->
       <li class="nav-item">
-          <a class="nav-link text-uppercase menu-title" href="/about">Sobre</a>
-        </li>
+        <a class="nav-link text-uppercase menu-title" href="{{- (string .Lang) }}/about">Sobre</a>
+      </li>
     </ul>
-     
-<form class="form-inline my-2 my-lg-0" name="x" action="//duckduckgo.com/">
-  <input value="joseluiz.net" name="sites" type="hidden">
-  <input value="br-pt" name="kl" type="hidden">
-  <input value="1" name="kz" type="hidden">
-  <input value="e" name="ky" type="hidden">
-  <input value="g" name="k8" type="hidden">
-  <input value="-1" name="k1" type="hidden">
-  <input value="w" name="kj" type="hidden">
-  <input class="form-control input-sm mr-sm-2" placeholder="Faça sua busca" name="q" type="text" style="width: 200px">
-  <input src="/images/search.svg" type="image">
-  
-</form>
-         
+
+    <form class="form-inline my-2 my-lg-0" name="x" action="//duckduckgo.com/">
+      <input value="joseluiz.net" name="sites" type="hidden">
+      <input value="br-pt" name="kl" type="hidden">
+      <input value="1" name="kz" type="hidden">
+      <input value="e" name="ky" type="hidden">
+      <input value="g" name="k8" type="hidden">
+      <input value="-1" name="k1" type="hidden">
+      <input value="w" name="kj" type="hidden">
+      <input class="form-control input-sm mr-sm-2" placeholder="Faça sua busca" name="q" type="text" style="width: 200px">
+      <input src="/images/search.svg" type="image">
+
+    </form>
+
   </div>
 </nav>
-

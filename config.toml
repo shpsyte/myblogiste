@@ -1,20 +1,39 @@
 baseURL = "http://joseluiz.net/"
-
 disqusShortname = "joseluiz"
 googleAnalytics = "UA-115448344-1"
 adsenseDataAdClient = ""
 adsenseDataAdSlot = ""
 baseURLImages = "https://i.imgur.com/"
 
-defaultContentLanguage = "pt"
+defaultContentLanguage = "en"
 enableEmoji = true
-languageCode = "pt-br"
+languageCode = "en"
 paginate = 10
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "José Luiz - Artigos sobre Desenvovimento de Software, C#, Entity Framework, SQL e Empreendedorismo"
+
+[params]
+  description = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
+  keywords = "Javascript, React.js, React Native, Node.js, .Net Core, SQL, MariaDB"
+  copyright = "© José Luiz"
+  licence = ""
+  addnavleft = "true"
+  addThisId = "ra-5aa2dff90bb5f212"
+
+
+[languages]
+  [languages.en]
+    title = "Article about Software Development using tech:  Javascript, React.Js, React Native, Node.Js, .Net Core, SQL & MariaDB"
+    description = "Article about Software Development using tech:  Javascript, React.Js, React Native, Node.Js, .Net Core, SQL & MariaDB"
+    weight = 1
+
+
+ [languages.pt]
+    title = "José Luiz - Artigos sobre Desenvovimento de Software, C#, Entity Framework, SQL e Empreendedorismo"
+    description = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
+    weight = 2
 
 
 [author]
@@ -22,13 +41,6 @@ title = "José Luiz - Artigos sobre Desenvovimento de Software, C#, Entity Frame
   homepageText = "José Luiz"
   name = "José Luiz"
 
-[params]
-  description = "José Luiz - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software"
-  keywords = ".Net, C#, Entity Framework, SQL, T-SQL"
-  copyright = "© 2018 José Luiz"
-  licence = ""
-  addnavleft = "true"
-  addThisId = "ra-5aa2dff90bb5f212"
 
 [permalinks]
   # posts = "/:year/:month/:day/:slug/"

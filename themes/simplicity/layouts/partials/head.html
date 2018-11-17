@@ -1,8 +1,8 @@
-<title>{{.Title}} - Artigos sobre C#, Entity Framework, SQL e desenvolvimento software</title>
+<title>{{.Title}} {{ .Site.Params.description }}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="author" content="{{ .Site.Author.name }}">
-<meta name="description" content="{{ if .IsHome}} {{ .Site.Params.description }} {{ else }} {{ .Param "excerpt" }} {{ end }}">
+<meta name="description" content="{{ if .IsHome}}{{ .Site.Params.description }}{{ else }}{{ .Param "excerpt" }}{{ end }}">
 <link rel="preconnect" href="https://code.jquery.com/">
 <link rel="preconnect" href="https://duckduckgo.com/">
 <link rel="preconnect" href="https://www.googletagmanager.com/">
@@ -12,8 +12,8 @@
 <link rel="preconnect" href="https://c.disquscdn.com/">
 <link rel="preconnect" href="https://cdnjs.com/">
 <meta name="keywords" content="{{ with .Param "keyword"}}{{ . }} {{ end }} {{ .Site.Params.keywords }}">
-<link rel="canonical" href="{{ .Permalink | relURL   }}"> 
-<meta property="og:url" content="{{ .Permalink | relURL   }}"> 
+<link rel="canonical" href="{{ .Permalink | relURL   }}">
+<meta property="og:url" content="{{ .Permalink | relURL   }}">
 <meta property="og:type" content="{{ if .IsHome}}website{{ else }}article{{ end }}" />
 <meta property="og:title" content="{{ .Title}}">
 <meta property="og:description" content="{{ .Param "excerpt" }}" name="description">
@@ -33,11 +33,14 @@
 <meta name="robots" content="noodp">
 
 <!-- CSS -->
-<link rel='stylesheet' id='bluth-googlefonts-css'  href='http://fonts.googleapis.com/css?family=Ubuntu%3A400%2C600%2C700%2C800%7CUbuntu%3A300%2C400%2C500%7COpen+Sans%3A400%2C600%2C700%2C800&#038;subset=latin&#038;ver=4.9.5' type='text/css' media='all' />
-<link rel="stylesheet" href='{{ print "/assets/css/" $.Site.Data.assets.main.css | relURL }}'> 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel='stylesheet' id='bluth-googlefonts-css' href='http://fonts.googleapis.com/css?family=Ubuntu%3A400%2C600%2C700%2C800%7CUbuntu%3A300%2C400%2C500%7COpen+Sans%3A400%2C600%2C700%2C800&#038;subset=latin&#038;ver=4.9.5'
+    type='text/css' media='all' />
+<link rel="stylesheet" href='{{ print "/assets/css/" $.Site.Data.assets.main.css | relURL }}'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 <!-- <link rel="stylesheet" href='{{ print "/assets/css/font-awesome/css/font-awesome.min.css" }}'> -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
 <link rel="stylesheet" href='{{ print "/assets/css/devicons/css/devicons.min.css" }}'>
 <link rel="stylesheet" href='{{ print "/assets/css/blog.css" }}'>
 
@@ -48,4 +51,3 @@
 <!-- RSS -->
 <link href="{{ $.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{- .Site.Title -}}" />
 <link href="{{ $.LanguagePrefix }}{{ "/posts/index.xml" | relURL }}" rel="feed" type="application/rss+xml" title="{{- .Site.Title -}}" />
-
