@@ -1,26 +1,76 @@
+[blog]
+other = "Blog"
+
 [postsAbout]
-other = "Posty o:"
+other = "Posts about:"
+
+[about]
+other = "Sobre"
+
+[strSearch]
+other = "Faça sua busca"
+
+[language]
+other="Pt"
+
+
+[archives]
+other = "Arquivos"
+
+[keepRead]
+other="Continue Lendo..."
+
 
 [postsList]
-other = "Lista postów"
+other = "Post Recentes"
 
 [homePage]
-other = "Strona główna"
+other = "Homepage"
 
 [previous]
-other = "poprzednie"
+other = "previous"
 
 [next]
-other = "następne"
+other = "next"
 
 [categories]
 other = "Categorias"
 
 [tags]
-other = "Tagi"
+other = "Tags"
 
 [loggedAs]
-other = "Jesteś zalogowany jako"
+other = "You're logged in as"
 
 [404Page]
-other = "Żartuję. Ta strona nie istnieje (404)."
+other = "Just kidding. This page does not exist (404)."
+
+
+[subscribe]
+other = "Fique conectado"
+
+[body]
+other = "Receba conteúdos de programação seu email! Inscreva-se, como outros milhares de profissionais."
+
+[name]
+other = "Nome"
+
+[email]
+other = "Seu melhor Email"
+
+[btnSubscribe]
+other="Entrar para lista VIP"
+
+
+
+[noteMsg]
+other="Olá, meu nome é José Luiz e você sabe meu compromisso com você - sem post pagos, sem anuncios, sem conteúdo privado, somente post."
+
+[noteHelp]
+other="Se você curtiu esta produção, por favor, considere me enviar um cafézinho para apoiar o que eu faço... "
+
+[notePay]
+other="Me pague um café e ajude o mundo!"
+
+[noteSend]
+other="Toda contribuição é enviada para"

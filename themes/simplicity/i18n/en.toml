@@ -1,5 +1,23 @@
+[blog]
+other = "Blog"
+ 
 [postsAbout]
 other = "Posts about:"
+
+[about]
+other = "About"
+
+[archives]
+other = "Archives"
+
+[language]
+other="En"
+
+[strSearch]
+other = "Search"
+
+[keepRead]
+other="Read more..."
 
 [postsList]
 other = "List of posts"
@@ -24,3 +42,33 @@ other = "You're logged in as"
 
 [404Page]
 other = "Just kidding. This page does not exist (404)."
+
+
+[subscribe]
+other = "Stay Connected"
+
+[body]
+other = "Get programming content your email! Sign up, like thousands of other professionals."
+
+
+[name]
+other = "Name"
+
+[email]
+other = "Your best email"
+
+[btnSubscribe]
+other="Subscribe"
+
+
+[noteMsg]
+other="Hy, I'm José Luiz and my commitment is to no bullshit post, no sponsored posts, no ads, and no paywalls."
+
+[noteHelp]
+other="If you enjoy my content, please consider supporting what I do. "
+
+[notePay]
+other="Support my work and save the World!"
+
+[noteSend]
+other="All support is send to "

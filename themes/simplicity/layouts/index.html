@@ -34,7 +34,7 @@
                     </div>
                     </div>
                   <p class="card-text">{{ .Params.excerpt }}</p>
-                  <a class="btn btn-outline-info btn-block" href="{{ .Permalink | relURL }}">Continuar lendo...</a>
+                  <a class="btn btn-outline-info btn-block" href="{{ .Permalink | relURL }}">{{ i18n "keepRead" .}}</a>
                 </div>
               </div>
             {{ end }}

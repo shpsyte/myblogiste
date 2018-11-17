@@ -8,21 +8,19 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
     <ul class="navbar-nav mr-auto mt-2">
       <li class="nav-item ml-1">
          
-        <a class="nav-link text-uppercase text-black menu-title" href="{{ "blog/" | absLangURL }}">BLOG
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/" | absLangURL }}">{{ i18n "blog" . }} 
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item ml-1">
-
-        <!-- <a class="nav-link text-uppercase  text-black menu-title" 
-        href="/archives/">Arquivos</a> -->
+        <a class="nav-link text-uppercase  text-black menu-title" 
+        href="{{ "/archives" | absLangURL }}">{{ i18n "archives"}}</a> 
       </li>
       <li class="nav-item ml-1">
-        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/categories" | absLangURL }}">Categorias</a>
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/categories" | absLangURL }}">{{ i18n "categories" . }}</a>
       </li>
       <!-- <li class="nav-item ml-1">
         <a class="nav-link text-uppercase text-success menu-title" href="/cursos-online-programacao">Cursos</a>
@@ -31,22 +29,39 @@
         <a class="nav-link text-uppercase text-black menu-title" target="_blank" href="https://www.youtube.com/channel/UCWvI2zvMqYQZFff1x66CGBw?view_as=subscriber">Videos</a>
       </li>  -->
       <li class="nav-item">
-        <a class="nav-link text-uppercase menu-title" href="{{- (string .Lang) }}/about">Sobre</a>
+        <a class="nav-link text-uppercase menu-title" href="{{ "/about" | absLangURL }}">{{ i18n "about" . }}</a>
       </li>
+     
+      
+      <form class="form-inline ml-5 my-2 my-lg-0" name="x" action="//duckduckgo.com/">
+        <input value="joseluiz.net" name="sites" type="hidden">
+        <input value="br-pt" name="kl" type="hidden">
+        <input value="1" name="kz" type="hidden">
+        <input value="e" name="ky" type="hidden">
+        <input value="g" name="k8" type="hidden">
+        <input value="-1" name="k1" type="hidden">
+        <input value="w" name="kj" type="hidden">
+        <input class="form-control input-sm mr-sm-2" placeholder="{{ i18n "strSearch" . }}" name="q" type="text" style="width: 200px">
+        <input src="/images/search.svg" type="image">
+      </form>  
+    
     </ul>
 
-    <form class="form-inline my-2 my-lg-0" name="x" action="//duckduckgo.com/">
-      <input value="joseluiz.net" name="sites" type="hidden">
-      <input value="br-pt" name="kl" type="hidden">
-      <input value="1" name="kz" type="hidden">
-      <input value="e" name="ky" type="hidden">
-      <input value="g" name="k8" type="hidden">
-      <input value="-1" name="k1" type="hidden">
-      <input value="w" name="kj" type="hidden">
-      <input class="form-control input-sm mr-sm-2" placeholder="Faça sua busca" name="q" type="text" style="width: 200px">
-      <input src="/images/search.svg" type="image">
+    <ul class="navbar-nav my-auto mt-2">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase text-black menu-title" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ i18n "language" .}}
+            </a>
+            
+          
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/en/{{ .Permalink }}">English</a>
+                <a class="dropdown-item" href="/pt/{{ .Permalink }}">Português - Brasil</a>
+            </div>
+        </li>
+  
 
-    </form>
+    </ul>
 
   </div>
 </nav>
