@@ -11,16 +11,16 @@
     <ul class="navbar-nav mr-auto mt-2">
       <li class="nav-item ml-1">
          
-        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/" | absLangURL }}">{{ i18n "blog" . }} 
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/" | relLangURL }}">{{ i18n "blog" . }} 
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item ml-1">
         <a class="nav-link text-uppercase  text-black menu-title" 
-        href="{{ "/archives" | absLangURL }}">{{ i18n "archives"}}</a> 
+        href="{{ "/archives" | relLangURL }}">{{ i18n "archives"}}</a> 
       </li>
       <li class="nav-item ml-1">
-        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/categories" | absLangURL }}">{{ i18n "categories" . }}</a>
+        <a class="nav-link text-uppercase text-black menu-title" href="{{ "/categories" | relLangURL }}">{{ i18n "categories" . }}</a>
       </li>
       <!-- <li class="nav-item ml-1">
         <a class="nav-link text-uppercase text-success menu-title" href="/cursos-online-programacao">Cursos</a>
@@ -29,7 +29,7 @@
         <a class="nav-link text-uppercase text-black menu-title" target="_blank" href="https://www.youtube.com/channel/UCWvI2zvMqYQZFff1x66CGBw?view_as=subscriber">Videos</a>
       </li>  -->
       <li class="nav-item">
-        <a class="nav-link text-uppercase menu-title" href="{{ "/about" | absLangURL }}">{{ i18n "about" . }}</a>
+        <a class="nav-link text-uppercase menu-title" href="{{ "/about" | relLangURL }}">{{ i18n "about" . }}</a>
       </li>
      
       
