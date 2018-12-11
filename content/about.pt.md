@@ -1,6 +1,6 @@
 ---
 title: Sobre
-type: "page"
+type: 'page'
 language: pt
 ---
 
@@ -23,9 +23,9 @@ language: pt
 <hr>
 <div class="row">
     <div class="col-md-6">
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- C# ASP.NET, .NET Core, Web API, Razor,
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- .NET Core, ASP.NET MVC, Web API, Razor,
             HTML5, Javascript</p>
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Entity Framework, LINQ</p>
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- NodeJS, ExpressJS</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Fluência em <b>T-SQL</b> para banco de dados SQL Server and Oracle</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Gerenciamento de Projeto, e Lider de Time.</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Projetos Pro Bono, Voluntártio.</p>
@@ -164,8 +164,8 @@ language: pt
 <h4 class="mt-4">Projects</h4>
 <hr>
 
-Alguns projetos são privado, :( ... mas você pode ver alguns em  <a target="_blank" href="https://github.com/shpsyte">github
-    profile</a>, eu vou mencionar alguns projetos, usando C#, .Net Core, Javascritp, HTML5, SQL Server, Oracle:
+Alguns projetos são privado, :( ... mas você pode ver alguns em <a target="_blank" href="https://github.com/shpsyte">github
+profile</a>, eu vou mencionar alguns projetos, usando C#, .Net Core, Javascritp, HTML5, SQL Server, Oracle:
 
 <br>
 <table class="table table-striped bg-white mt-5">
@@ -175,6 +175,17 @@ Alguns projetos são privado, :( ... mas você pode ver alguns em  <a target="_b
         </tr>
     </thead>
     <tbody>
+    <tr>
+        <td class="col-1">
+            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
+        </td>
+        <td class="col-4">
+            <a target="_blank" href="https://vhsuccesscase.herokuapp.com/">VH Success Case</a>
+        </td>
+        <td class="text-dark">
+            Meu primeiro projeto usando NodeJS e ExpressJS, mostra os dados de contratação no Canadá, Se você é Admin pode inserir ou deletar novas informações...
+        </td>
+    </tr>
     <tr>
         <td class="col-1">
             <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">

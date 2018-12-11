@@ -1,8 +1,8 @@
 ---
 title: About
-type: "page"
+type: 'page'
 language: en
---- 
+---
 
 <div class="row mt-3">
     <div class="col-md-2">
@@ -26,8 +26,9 @@ language: en
 <hr>
 <div class="row">
     <div class="col-md-6">
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- C# ASP.NET, .NET Core, Web API, Razor,
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- .NET Core, ASP.NET MVC, Web API, Razor,
             HTML5, Javascript</p>
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- NodeJS, ExpressJS</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Entity Framework, LINQ</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Advanced <b>T-SQL</b> Skills for database
             SQL Server and Oracle</p>
@@ -174,7 +175,7 @@ language: en
 <hr>
 
 Many project have a private code, :( ... you can check my <a target="_blank" href="https://github.com/shpsyte">github
-    profile</a> as well, but I put here some project, all of them I used C#, .Net Core, Javascritp, HTML5, SQL Server
+profile</a> as well, but I put here some project, all of them I used C#, .Net Core, Javascritp, HTML5, SQL Server
 or Oracle:
 
 <br>
@@ -185,6 +186,17 @@ or Oracle:
         </tr>
     </thead>
     <tbody>
+    <tr>
+        <td class="col-1">
+            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
+        </td>
+        <td class="col-4">
+            <a target="_blank" href="https://vhsuccesscase.herokuapp.com/">VH Success Case</a>
+        </td>
+        <td class="text-dark">
+            This is my first project using NodeJS and ExpressJS, to show data information about people hired in Canada, If you is a Admin, you can add a new case or delete data...
+        </td>
+    </tr>
     <tr>
         <td class="col-1">
             <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
