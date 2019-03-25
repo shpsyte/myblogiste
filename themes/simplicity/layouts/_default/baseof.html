@@ -31,7 +31,18 @@
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ $.Site.Params.addThisId }}"></script>
   {{ end }}
 
-  
+  <script>
+    function getF() {
+      var phone = $('#phone').val()
+      if (phone.substring(1, 4) != "5541")
+      {
+        phone = "5541" + phone
+      }
+      let _url = "https://web.whatsapp.com/send?phone="+phone+"&text=Hey.."
+      window.location.replace(_url);
+      
+    }
+  </script>
   <script>
     var $window = $(window);
     var $videoWrap = $('.video-wrap');

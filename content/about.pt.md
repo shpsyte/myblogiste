@@ -180,6 +180,17 @@ profile</a>, eu vou mencionar alguns projetos, usando C#, .Net Core, Javascritp,
             <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
         </td>
         <td class="col-4">
+            <a target="_blank" href="http://sharedidea.herokuapp.com/">Shared Ideia</a>
+        </td>
+        <td class="text-dark">
+            Outro projeto usando NodeJS, ExpressJS, Socket.IO, compartilha suas frases onde pode ser dado likes...
+        </td>
+    </tr>    
+    <tr>
+        <td class="col-1">
+            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
+        </td>
+        <td class="col-4">
             <a target="_blank" href="https://vhsuccesscase.herokuapp.com/">VH Success Case</a>
         </td>
         <td class="text-dark">

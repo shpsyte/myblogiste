@@ -186,6 +186,31 @@ or Oracle:
         </tr>
     </thead>
     <tbody>
+     <tr>
+        <td class="col-1">
+            Silly Billy
+        </td>
+        <td class="col-4">
+            <div class="form-inline" name="x">
+                <input class="form-control input-sm mr-sm-2" name="phone" id="phone" type="text" style="width: 220px">
+                <button id="btnTalk" onClick="getF()">Talk</button>
+            </div>  
+        </td>
+        <td class="text-dark">
+            Talk without store phone on whatsApp.
+        </td>
+    </tr>    
+    <tr>
+        <td class="col-1">
+            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
+        </td>
+        <td class="col-4">
+            <a target="_blank" href="http://sharedidea.herokuapp.com/">Shared Ideia</a>
+        </td>
+        <td class="text-dark">
+            Just another personal project using NodeJS, ExpressJS, Socket.IO, share your idea where everyone can be like...
+        </td>
+    </tr>    
     <tr>
         <td class="col-1">
             <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
