@@ -2,7 +2,6 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   background-image: none !important;
   background: #ffffff;
-
 }
 
 h1,
@@ -14,54 +13,51 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-.text-shadow{
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) !important;
+.text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
 }
 
 header.masthead {
   position: relative;
-  
-  background: url("../img/bg-header.png") no-repeat center center; 
+
+  background: url('../img/bg-header.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-   
 }
 
-.thy{
+.thy {
   position: relative;
-  background: url("../img/thakyoubg.png") no-repeat center center; 
+  background: url('../img/thakyoubg.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
-.thy .overlay{
+.thy .overlay {
   position: absolute;
-  background-color :#003476;
+  background-color: #003476;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-    opacity: 0.4; 
+  opacity: 0.4;
 }
 
-.shadown{
+.shadown {
   box-shadow: 0 0 43px 0 #bdc1c5;
 }
 
-header.masthead   .overlay {
+header.masthead .overlay {
   position: absolute;
-  background-color :#003476;
+  background-color: #003476;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.2; 
+  opacity: 0.2;
 }
 
 header.masthead h1 {
@@ -70,8 +66,6 @@ header.masthead h1 {
 header.thy h1 {
   font-size: 2rem;
 }
-
-
 
 @media (min-width: 768px) {
   header.masthead {
@@ -83,10 +77,9 @@ header.thy h1 {
   }
 }
 
-
 #subirTopo {
   text-decoration: none;
-  background: rgba(30,156,161,.9);
+  background: rgba(30, 156, 161, 0.9);
   bottom: 30px;
   right: 30px;
   color: #fff;
@@ -101,14 +94,13 @@ header.thy h1 {
   position: fixed;
   border: 0;
   font-family: sans-serif;
-  opacity: .8;
-  }
-  
-  #subirTopo:hover {
-  opacity:1;
-  }
+  opacity: 0.8;
+}
 
-  
+#subirTopo:hover {
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
   header.thy {
     padding-top: 6rem;
@@ -136,18 +128,15 @@ header.thy h1 {
   padding-bottom: 7rem;
 }
 
-.hederthy
-{
+.hederthy {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.features-quote{
+.features-quote {
   padding-top: 3rem;
   padding-bottom: 3rem;
-
-
 }
-.features-bots  {
+.features-bots {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -168,12 +157,8 @@ header.thy h1 {
   font-size: 5rem;
 }
 
-
-
-
-.features-business  {
+.features-business {
   padding-top: 3rem;
-  
 }
 
 .features-business .features-business-item {
@@ -191,9 +176,6 @@ header.thy h1 {
 .features-business .features-business-item:hover .features-business-icon i {
   font-size: 5rem;
 }
-
-
-
 
 .showcase .showcase-text {
   padding: 3rem;
@@ -271,10 +253,12 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
-
-
 #header-and-form #responsive-form {
   float: left;
   width: 100%;
   margin-top: 30px;
+}
+
+strong {
+  font-weight: bold !important;
 }

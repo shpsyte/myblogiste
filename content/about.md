@@ -7,7 +7,7 @@ language: en
 <div class="row mt-3">
     <div class="col-md-2">
         <span class="d-none d-lg-block">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2 mt-2" width="200" src="https://pbs.twimg.com/profile_images/1024257723150606337/Y70jgMz3_400x400.jpg"
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2 mt-2" width="200" src="https://pbs.twimg.com/profile_images/1147988874775236608/axedpmtV_200x200.jpg"
                 alt="José Luiz">
         </span>
     </div>
@@ -26,18 +26,12 @@ language: en
 <hr>
 <div class="row">
     <div class="col-md-6">
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- .NET Core, ASP.NET MVC, Web API, Razor,
-            HTML5, Javascript</p>
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- NodeJS, ExpressJS</p>
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- .NET Framework, .NET Core, .NET MVC</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Entity Framework, LINQ</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Advanced <b>T-SQL</b> Skills for database
             SQL Server and Oracle</p>
-        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Project Management, and Team Lead.</p>
+        <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Scrum and Team Lead.</p>
         <p class="m-0" style="font-weight: 300; color: rgb(189, 93, 56)">- Pro Bono project, Volunteer.</p>
-        <p class="m-0" style="font-weight: 300;">
-            I am study <b>Javascript in Depth</b>, and get some certification, such as, <b>Scrum, AWS</b> to improve my
-            skills !
-        </p>
     </div>
     <div class="col-md-6 text-left">
         <p class="m-0 text-left" style="font-weight: 300;">
@@ -65,7 +59,7 @@ language: en
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://www.instagram.com/joseluizsborges/">
+                    <a href="https://www.instagram.com/joseluizborges_/">
                         <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
@@ -151,7 +145,7 @@ language: en
                 All coffee supporting are sending to
                 <a target="_blank" href="https://www.msf.org/donate">MSF</a>
                 and to
-                <a target="_blank" href="https://www.rotary.org/en/donate">Rotary</a>
+                <a target="_blank" href="https://www.obemnuncapara.org.br/">O Bem nunca para</a>
                 :)
             </p>
         </p>
@@ -179,117 +173,56 @@ profile</a> as well, but I put here some project, all of them I used C#, .Net Co
 or Oracle:
 
 <br>
-<table class="table table-striped bg-white mt-5">
-    <thead class="thead-dark">
-        <tr>
-            <th colspan="3"> Software Application </th>
-        </tr>
-    </thead>
-    <tbody>
-     <tr>
-        <td class="col-1">
-            Silly Billy
-        </td>
-        <td class="col-4">
-            <div class="form-inline" name="x">
+<style>
+.border{
+  border: 1px solid black;
+}
+</style>
+
+<div class="row">
+  <div class="col-md-4 border">Silly Billy</div>
+  <div class="col-md-4 border">
+      <div class="form-inline" name="x">
                 <input class="form-control input-sm mr-sm-2" name="phone" id="phone" type="text" style="width: 220px">
                 <button id="btnTalk" onClick="getF()">Talk</button>
-            </div>  
-        </td>
-        <td class="text-dark">
-            Talk without store phone on whatsApp.
-        </td>
-    </tr>    
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="http://sharedidea.herokuapp.com/">Shared Ideia</a>
-        </td>
-        <td class="text-dark">
-            Just another personal project using NodeJS, ExpressJS, Socket.IO, share your idea where everyone can be like...
-        </td>
-    </tr>    
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://vhsuccesscase.herokuapp.com/">VH Success Case</a>
-        </td>
-        <td class="text-dark">
-            This is my first project using NodeJS and ExpressJS, to show data information about people hired in Canada, If you is a Admin, you can add a new case or delete data...
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="http://hackthequestion.joseluiz.net/">HackQuestion Page</a>
-        </td>
-        <td class="text-dark">
-            This is a WebSite Tools, to help some candidates to study regular question for interviwers
-            and record yourseflt to check your English
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://www.nopcommerce.com/images/thumbs/0004793_400.jpeg">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://github.com/shpsyte/Correios">NopCommerce Shippment Plugin</a>
-        </td>
-        <td class="text-dark">
-            This is a Plugin for Shipment Calculation Price, to use on NopCommerce Solution, It's Free and Open Source.
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://www.nopcommerce.com/images/thumbs/0006243_400.jpeg">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://github.com/shpsyte/PagSeguro">NopCommerce Payment Plugin</a>
-        </td>
-        <td class="text-dark">
-            This is a Plugin for Payment Calculation, Integrated with PagSeguro, to use on NopCommerce Solution, It's
-            Free and Open Source.
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/8uySLS5.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://github.com/shpsyte/CRMFx">CRM/SAC Software WebApp</a>
-        </td>
-        <td class="text-dark">
-            Software Write to Help my customer a plan and control your Customer Services.
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/dm8eRXw.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://github.com/shpsyte/Procediemento">Customer Issue Payment Module WebApp</a>
-        </td>
-        <td class="text-dark">
-            Another Software that help customers a control customer requirement to pay insurance
-        </td>
-    </tr>
-    <tr>
-        <td class="col-1">
-            <img class="img-fluid" src="https://i.imgur.com/nGP2Gdf.png">
-        </td>
-        <td class="col-4">
-            <a target="_blank" href="https://github.com/shpsyte/smartadmin">Smartadmin WebApp</a>
-        </td>
-        <td class="text-dark">
-            SmartAdmin solves problem for
-            manager DEAL, CUSTOMER with PIPELINE for companies
-        </td>
-    </tr>
-</tbody>
-</table>
+            </div>
+  </div>
+  <div class="col-md-4 border">Talk without store phone on whatsApp.</div>
+
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png"></div>
+  <div class="col-md-4 border"><a target="_blank" href="http://sharedidea.herokuapp.com/">Shared Ideia</a></div>
+  <div class="col-md-4 border">Just another personal project using NodeJS, ExpressJS, Socket.IO, share your idea where everyone can be like...</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://vhsuccesscase.herokuapp.com/">VH Success Case</a></div>
+  <div class="col-md-4 border">This is my first project using NodeJS and ExpressJS, to show data information about people hired in Canada, If you is a Admin, you can add a new case or delete data...</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/pqiSCjP.png">    </div>
+  <div class="col-md-4 border"><a target="_blank" href="http://hackthequestion.joseluiz.net/">HackQuestion Page</a></div>
+  <div class="col-md-4 border">This is a WebSite Tools, to help some candidates to study regular question for interviwers
+            and record yourseflt to check your English</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://www.nopcommerce.com/images/thumbs/0004793_400.jpeg"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://github.com/shpsyte/Correios">NopCommerce Shippment Plugin</a>   </div>
+  <div class="col-md-4 border">This is a Plugin for Shipment Calculation Price, to use on NopCommerce Solution, It's Free and Open Source.</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://www.nopcommerce.com/images/thumbs/0006243_400.jpeg"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://github.com/shpsyte/PagSeguro">NopCommerce Payment Plugin</a></div>
+  <div class="col-md-4 border">This is a Plugin for Payment Calculation, Integrated with PagSeguro, to use on NopCommerce Solution, It's
+            Free and Open Source.</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/8uySLS5.png"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://github.com/shpsyte/CRMFx">CRM/SAC Software WebApp</a></div>
+  <div class="col-md-4 border">Software Write to Help my customer a plan and control your Customer Services.</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/dm8eRXw.png"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://github.com/shpsyte/Procediemento">Customer Issue Payment Module WebApp</a></div>
+  <div class="col-md-4 border">Another Software that help customers a control customer requirement to pay insurance</div>
+  
+  <div class="col-md-4 border"><img class="img-fluid" src="https://i.imgur.com/nGP2Gdf.png"></div>
+  <div class="col-md-4 border"><a target="_blank" href="https://github.com/shpsyte/smartadmin">Smartadmin WebApp</a></div>
+  <div class="col-md-4 border"> SmartAdmin solves problem for
+            manager DEAL, CUSTOMER with PIPELINE for companies</div>
+  
+</div>
+

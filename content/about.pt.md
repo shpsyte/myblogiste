@@ -141,7 +141,7 @@ language: pt
                 Todo "cafézinho" eu estou enviando para 
                 <a target="_blank" href="https://www.msf.org/donate">MSF</a>
                 e para o
-                <a target="_blank" href="https://www.rotary.org/en/donate">Rotary</a>
+                  <a target="_blank" href="https://www.obemnuncapara.org.br/">O Bem nunca para</a>
                 :)
             </p>
         </p>

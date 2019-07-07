@@ -263,6 +263,23 @@ a:active {
   cursor: default;
 }
 
+strong {
+  font-weight: bold !important;
+}
+
+.first-col {
+  background-color: aliceblue;
+  width: 10px !important;
+}
+
+.second-col {
+  background-color: aliceblue;
+  width: 50px !important;
+}
+.last-col {
+  background-color: aliceblue;
+  width: 200px !important;
+}
 /*   
 
   ul.post-list{padding:0 1rem}

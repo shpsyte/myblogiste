@@ -4,7 +4,7 @@ date: 2018-05-19T15:32:13-03:00
 type: "ebooks"
 date: 2018-03-09T08:00:22-03:00
 description: Sign up on our site to receive first-hand tips, tools and articles for you to apply in your day to day developer or entrepreneur!
-keywords: Articles about Javascript, .Net Core, React.JS, Software development and entrepreneurship
+keywords: Articles about Scrum, Productivity, .Net Stack, .Net Core, C#, SQL Server, Software development and entrepreneurship.
 language: en
 slug: inscreva-se-em-nossa-lista-vip
 draft: false
