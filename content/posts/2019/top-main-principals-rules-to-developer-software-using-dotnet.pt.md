@@ -30,9 +30,6 @@ Eu acredito fortamente que você também deveria seguir alguns, se não todos.
 # Meus Princípios
 
 \
-Estou usando o **Visual Studio Code**, uma regra esta vinculada ao Visual Studio, mas eu já abri um [Issue](https://github.com/microsoft/vscode/issues/76785) no GIT para que possam adicionar a feature no VSCode que é um dos editores mais usados.
-
-Se puder ir lá e adicionar algum comentário e clicar no thumb... ;)
 
 Ahhh os princípios não estão priorizadas, apenas numeradas.
 
@@ -194,11 +191,20 @@ O que poderia ser feito:
 
 
 <h2 id="6">#6 Warning como erros</h2>    
-_Aqui só vai funcionar para Visual Studio._
 
 
 Configure seu BUILD para ver warning como erros. Lembre-se que Warnings vão deixar seu código sujo e difícil de manter e testar!
 
+Se estiver usando Visual Studio, abra as configurações do editor e altere as configurações no build, se estiver usando o Visual Studio Code, basta abrir o arquivo .csproj e adicionar a tag abaixo:
+
+```cs
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+``` 
+
+Pronto, agora seus warning serão tratados como Erros.
 
 <h2 id="7">#7 Encapsulate Expressões Complexas:</h2>
 

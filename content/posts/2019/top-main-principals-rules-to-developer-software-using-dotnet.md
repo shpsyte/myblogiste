@@ -30,9 +30,6 @@ I strongly believe that you should follow it all of them.
 # My Principals
 
 \
-I'm using **Visual Studio Code**, and one of the rules is related to Visual Studio, but I already open a [Issue](https://github.com/microsoft/vscode/issues/76785) on GIT and they should add this feature at VSCode.
-
-If you could go and add a thumb! I'll appreciate that... ;)
 
 Ahhh the principals aren't prioritized, just numbered
 
@@ -194,10 +191,20 @@ What could be done:
 
 
 <h2 id="6">#6 Warning as Erros</h2>    
-_This tip will only works on Visual Studio._
 
 
 Configure your BUILD to a treated warning as error. Remember Warnings will make your code bad and difficult to test!
+
+If you are using Visual Studio, open your configuration and change the BUILD config if your are using Visual Studio Code just open the file **.csproj** and add the tags:
+
+```cs
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+``` 
+
+Done, now your warnings will be treat as Erros...
 
 
 <h2 id="7">#7 Encapsulate Complex Expression:</h2>
